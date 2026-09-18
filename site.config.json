@@ -1,0 +1,42 @@
+{
+  "nome": "Luretec",
+  "titulo": "Catálogo Luretec 2026",
+  "slogan": "Componentes elétricos e eletrônicos automotivos",
+  "descricao": "Catálogo geral 2026 da Luretec: botões de vidro elétrico, chicotes, máquinas de vidro, LED, conectores, ferramentas, estribos e componentes automotivos. Monte seu orçamento e envie pelo WhatsApp.",
+  "url": "https://catalogo.awucloud.com.br",
+  "basePath": "/",
+  "idioma": "pt-BR",
+  "ano": 2026,
+  "edicao": "Catálogo geral 2026",
+  "whatsapp": {
+    "numero": "5511973831508",
+    "exibicao": "+55 11 97383-1508",
+    "saudacao": "Olá! Vim pelo catálogo online da Luretec e gostaria de um orçamento."
+  },
+  "siteOficial": "https://www.luretec.com.br",
+  "orcamentoOficial": "https://www.luretec.com.br/orcamento",
+  "pdf": {
+    "arquivo": "downloads/catalogo-luretec-2026.pdf",
+    "tamanho": "4 MB",
+    "paginas": 61
+  },
+  "destaques": ["64041", "63026", "61056", "66025-2", "67010", "61009", "63001", "61083"],
+  "sobre": {
+    "titulo": "Sobre a Luretec",
+    "paragrafos": [
+      "A Luretec fornece componentes elétricos e eletrônicos para o segmento automotivo: botões de vidro elétrico, chicotes de som e antena, máquinas de vidro, lâmpadas LED, conectores e cabos, ferramentas de instalação, estribos elétricos, relés, multímetros e baterias.",
+      "Este catálogo online reúne os 481 itens do catálogo geral 2026, organizados por categoria e por montadora, com busca por código, referência e modelo do veículo.",
+      "O orçamento é feito direto pelo WhatsApp: selecione os produtos, informe as quantidades e envie a lista para o nosso atendimento."
+    ]
+  },
+  "comoFunciona": [
+    { "titulo": "Encontre a peça", "texto": "Busque por código, referência, modelo do veículo ou navegue pelas categorias e montadoras." },
+    { "titulo": "Monte o orçamento", "texto": "Adicione os itens com a quantidade desejada. A lista fica salva no seu navegador." },
+    { "titulo": "Envie pelo WhatsApp", "texto": "Revise a lista e envie em um clique para o nosso atendimento responder com preços e prazos." }
+  ],
+  "avisos": "Imagens meramente ilustrativas. Consulte disponibilidade de estoque.",
+  "tema": {
+    "corPrimaria": "#0A1121",
+    "corAcento": "#F49E0A"
+  }
+}

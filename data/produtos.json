@@ -1,0 +1,6736 @@
+[
+ {
+  "codigo": "64041",
+  "ref": "FA01A43",
+  "nome": "Botão de vidro Uno simples 96/97 - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 1,
+  "imagem": {
+   "arquivo": "64041.jpg",
+   "largura": 203,
+   "altura": 101
+  }
+ },
+ {
+  "codigo": "64001",
+  "ref": "FA01A44",
+  "nome": "Botão de vidro Uno duplo 96/97 - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 2,
+  "imagem": {
+   "arquivo": "64001.jpg",
+   "largura": 201,
+   "altura": 91
+  }
+ },
+ {
+  "codigo": "64025",
+  "ref": "FA01G43",
+  "nome": "Botão de vidro Uno simples 96/97 - Verde",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 3,
+  "imagem": {
+   "arquivo": "64025.jpg",
+   "largura": 211,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "64054",
+  "ref": "FA01G44",
+  "nome": "Botão de vidro Uno duplo 96/97 - Verde",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 4,
+  "imagem": {
+   "arquivo": "64054.jpg",
+   "largura": 206,
+   "altura": 102
+  }
+ },
+ {
+  "codigo": "64055",
+  "ref": "FA01A71",
+  "nome": "Botão de vidro Idea 07 duplo - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 5,
+  "imagem": {
+   "arquivo": "64055.jpg",
+   "largura": 202,
+   "altura": 111
+  }
+ },
+ {
+  "codigo": "64002",
+  "ref": "FA01A72",
+  "nome": "Botão de vidro Idea 07 - Âmbar (16 pino)",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 6,
+  "imagem": {
+   "arquivo": "64002.jpg",
+   "largura": 192,
+   "altura": 115
+  }
+ },
+ {
+  "codigo": "64047",
+  "ref": "FA01A05",
+  "nome": "Botão de vidro Palio 2003 simples - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 7,
+  "imagem": {
+   "arquivo": "64047.jpg",
+   "largura": 178,
+   "altura": 127
+  }
+ },
+ {
+  "codigo": "64003",
+  "ref": "FA01A06",
+  "nome": "Botão de vidro Palio 2003 duplo - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 8,
+  "imagem": {
+   "arquivo": "64003.jpg",
+   "largura": 190,
+   "altura": 128
+  }
+ },
+ {
+  "codigo": "64004",
+  "ref": "FA01A29",
+  "nome": "Botão de vidro Palio Young 98-2001 simples concha - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 9,
+  "imagem": {
+   "arquivo": "64004.jpg",
+   "largura": 200,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64005",
+  "ref": "FA01A30",
+  "nome": "Botão de vidro Palio Young 98-2001 duplo concha - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 10,
+  "imagem": {
+   "arquivo": "64005.jpg",
+   "largura": 198,
+   "altura": 125
+  }
+ },
+ {
+  "codigo": "64056",
+  "ref": "FA01G29",
+  "nome": "Botão de vidro Palio Young 98-2001 simples concha - Verde",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 11,
+  "imagem": {
+   "arquivo": "64056.jpg",
+   "largura": 207,
+   "altura": 138
+  }
+ },
+ {
+  "codigo": "64006",
+  "ref": "FA01G30",
+  "nome": "Botão de vidro Palio Young 98-2001 duplo concha - Verde",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 4,
+  "ordem": 12,
+  "imagem": {
+   "arquivo": "64006.jpg",
+   "largura": 189,
+   "altura": 125
+  }
+ },
+ {
+  "codigo": "64007",
+  "ref": "FA01A38",
+  "nome": "Botão de vidro Uno Novo 2010 direito - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 13,
+  "imagem": {
+   "arquivo": "64007.jpg",
+   "largura": 200,
+   "altura": 108
+  }
+ },
+ {
+  "codigo": "64046",
+  "ref": "FA01A37",
+  "nome": "Botão de vidro Uno Novo 2010 esquerdo - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 14,
+  "imagem": {
+   "arquivo": "64046.jpg",
+   "largura": 194,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "64008",
+  "ref": "FA01A14",
+  "nome": "Botão de vidro Palio Fire 2001 duplo - Moldura curta sem aba",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 15,
+  "imagem": {
+   "arquivo": "64008.jpg",
+   "largura": 185,
+   "altura": 135
+  }
+ },
+ {
+  "codigo": "64040",
+  "ref": "FA01A13",
+  "nome": "Botão de vidro Palio Fire 2001 simples - Moldura curta sem aba",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 16,
+  "imagem": {
+   "arquivo": "64040.jpg",
+   "largura": 186,
+   "altura": 119
+  }
+ },
+ {
+  "codigo": "64045",
+  "ref": "FA01A16",
+  "nome": "Botão de vidro Palio Fire duplo 2001 - Moldura grande",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 17,
+  "imagem": {
+   "arquivo": "64045.jpg",
+   "largura": 192,
+   "altura": 127
+  }
+ },
+ {
+  "codigo": "64099",
+  "ref": "FA0115",
+  "nome": "Botão de vidro Palio Fire simples 2001 - Moldura grande",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 18,
+  "imagem": {
+   "arquivo": "64099.jpg",
+   "largura": 182,
+   "altura": 131
+  }
+ },
+ {
+  "codigo": "64065",
+  "ref": "FA01A49",
+  "nome": "Botão de vidro Argo quádruplo - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 19,
+  "imagem": {
+   "arquivo": "64065.jpg",
+   "largura": 123,
+   "altura": 123
+  }
+ },
+ {
+  "codigo": "64074",
+  "ref": "FA01A27",
+  "nome": "Botão de vidro Palio sem moldura - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 20,
+  "imagem": {
+   "arquivo": "64074.jpg",
+   "largura": 88,
+   "altura": 126
+  }
+ },
+ {
+  "codigo": "64082",
+  "ref": "FA0522",
+  "nome": "Botão p/ iluminação Strada 20-22",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 21,
+  "imagem": {
+   "arquivo": "64082.jpg",
+   "largura": 176,
+   "altura": 93
+  }
+ },
+ {
+  "codigo": "64089",
+  "ref": "FA01A39",
+  "nome": "Botão de vidro Palio 2003 direito simples sem borda",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 22,
+  "imagem": {
+   "arquivo": "64089.jpg",
+   "largura": 177,
+   "altura": 105
+  }
+ },
+ {
+  "codigo": "640112",
+  "ref": null,
+  "nome": "Botão Argo simples c/ moldura branco",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 23,
+  "imagem": {
+   "arquivo": "640112.jpg",
+   "largura": 50,
+   "altura": 119
+  }
+ },
+ {
+  "codigo": "640113",
+  "ref": null,
+  "nome": "Botão quádruplo Argo branco",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 5,
+  "ordem": 24,
+  "imagem": {
+   "arquivo": "640113.jpg",
+   "largura": 47,
+   "altura": 121
+  }
+ },
+ {
+  "codigo": "640110",
+  "ref": "FA0539",
+  "nome": "Botão neblina Argo",
+  "categoria": "botoes",
+  "subgrupo": "fiat",
+  "pagina": 6,
+  "ordem": 25,
+  "imagem": {
+   "arquivo": "640110.jpg",
+   "largura": 400,
+   "altura": 204
+  }
+ },
+ {
+  "codigo": "64009",
+  "ref": "FD01G02",
+  "nome": "Botão de vidro Fiesta/EcoSport quádruplo verde",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 26,
+  "imagem": {
+   "arquivo": "64009.jpg",
+   "largura": 183,
+   "altura": 126
+  }
+ },
+ {
+  "codigo": "64012",
+  "ref": "FD01G01",
+  "nome": "Botão de vidro Fiesta/EcoSport duplo verde",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 27,
+  "imagem": {
+   "arquivo": "64012.jpg",
+   "largura": 166,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64013",
+  "ref": "FD01G14",
+  "nome": "Botão de vidro Fiesta/EcoSport simples borda larga",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 28,
+  "imagem": {
+   "arquivo": "64013.jpg",
+   "largura": 203,
+   "altura": 171
+  }
+ },
+ {
+  "codigo": "64010",
+  "ref": "FD01G07",
+  "nome": "Botão de vidro Ka simples com moldura - Verde",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 29,
+  "imagem": {
+   "arquivo": "64010.jpg",
+   "largura": 185,
+   "altura": 115
+  }
+ },
+ {
+  "codigo": "64011",
+  "ref": "FD01G08",
+  "nome": "Botão de vidro Ka duplo com moldura - Verde 8 pinos",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 30,
+  "imagem": {
+   "arquivo": "64011.jpg",
+   "largura": 190,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "64048",
+  "ref": "FD01N25",
+  "nome": "Botão de vidro Ford Verona e Escort simples",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 31,
+  "imagem": {
+   "arquivo": "64048.jpg",
+   "largura": 197,
+   "altura": 118
+  }
+ },
+ {
+  "codigo": "64071",
+  "ref": "FD05G01",
+  "nome": "Botão farol de milha Fiesta redondo",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 32,
+  "imagem": {
+   "arquivo": "64071.jpg",
+   "largura": 98,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "64077",
+  "ref": "GM05N32",
+  "nome": "Conjunto milha Ka com rabicho",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 33,
+  "imagem": {
+   "arquivo": "64077.jpg",
+   "largura": 129,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "64034",
+  "ref": "FD01B04",
+  "nome": "Botão de vidro Ka duplo sem moldura 8 pinos Verde",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 6,
+  "ordem": 34,
+  "imagem": {
+   "arquivo": "64034.jpg",
+   "largura": 191,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "640101",
+  "ref": "FD0126",
+  "nome": "Botão de vidro Ford Verona e Escort duplo",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 7,
+  "ordem": 35,
+  "imagem": {
+   "arquivo": "640101.jpg",
+   "largura": 198,
+   "altura": 94
+  }
+ },
+ {
+  "codigo": "640102",
+  "ref": "FD0206",
+  "nome": "Botão trava alerta EcoSport/Transit",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 7,
+  "ordem": 36,
+  "imagem": {
+   "arquivo": "640102.jpg",
+   "largura": 164,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "640103",
+  "ref": "FD0105",
+  "nome": "Botão de vidro Ford Ka simples s/ moldura - Verde",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 7,
+  "ordem": 37,
+  "imagem": {
+   "arquivo": "640103.jpg",
+   "largura": 193,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "640115",
+  "ref": "FD01B",
+  "nome": "Botão levantador Ford Ka duplo 12 pinos",
+  "categoria": "botoes",
+  "subgrupo": "ford",
+  "pagina": 7,
+  "ordem": 38,
+  "imagem": {
+   "arquivo": "640115.jpg",
+   "largura": 255,
+   "altura": 279
+  }
+ },
+ {
+  "codigo": "64018",
+  "ref": "GM01B52",
+  "nome": "Botão de vidro Prisma/Onix/Spin/Cobalt quádruplo 8 pinos - Azul",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 7,
+  "ordem": 39,
+  "imagem": {
+   "arquivo": "64018.jpg",
+   "largura": 202,
+   "altura": 109
+  }
+ },
+ {
+  "codigo": "64019",
+  "ref": "GM01B53",
+  "nome": "Botão de vidro Prisma/Onix/Spin/Cobalt traseiro - Azul 5 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 7,
+  "ordem": 40,
+  "imagem": {
+   "arquivo": "64019.jpg",
+   "largura": 209,
+   "altura": 110
+  }
+ },
+ {
+  "codigo": "64020",
+  "ref": "GM01A28",
+  "nome": "Botão de vidro Vectra/Astra/Zafira - Âmbar 18 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 7,
+  "ordem": 41,
+  "imagem": {
+   "arquivo": "64020.jpg",
+   "largura": 201,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "64032",
+  "ref": "GM01A03",
+  "nome": "Botão de vidro Corsa/Prisma/Celta traseiro horizontal - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 7,
+  "ordem": 42,
+  "imagem": {
+   "arquivo": "64032.jpg",
+   "largura": 195,
+   "altura": 123
+  }
+ },
+ {
+  "codigo": "64021",
+  "ref": "GM01A01",
+  "nome": "Botão de vidro Corsa/Prisma/Celta vertical - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 7,
+  "ordem": 43,
+  "imagem": {
+   "arquivo": "64021.jpg",
+   "largura": 177,
+   "altura": 129
+  }
+ },
+ {
+  "codigo": "64022",
+  "ref": "GM01A02",
+  "nome": "Botão de vidro Corsa Novo/Prisma/Celta duplo - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 7,
+  "ordem": 44,
+  "imagem": {
+   "arquivo": "64022.jpg",
+   "largura": 169,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64023",
+  "ref": "GM01A04",
+  "nome": "Botão de vidro Corsa Novo/Prisma/Celta quádruplo - Âmbar",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 45,
+  "imagem": {
+   "arquivo": "64023.jpg",
+   "largura": 167,
+   "altura": 123
+  }
+ },
+ {
+  "codigo": "64027",
+  "ref": "GM05A02",
+  "nome": "Botão neblina Celta/Prisma 06-12",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 46,
+  "imagem": {
+   "arquivo": "64027.jpg",
+   "largura": 163,
+   "altura": 92
+  }
+ },
+ {
+  "codigo": "64049",
+  "ref": "GM01B50",
+  "nome": "Botão de vidro Prisma/Onix/Spin/Cobalt duplo Azul 6 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 47,
+  "imagem": {
+   "arquivo": "64049.jpg",
+   "largura": 202,
+   "altura": 107
+  }
+ },
+ {
+  "codigo": "64050",
+  "ref": "GM01B51",
+  "nome": "Botão de vidro Prisma/Onix/Spin/Cobalt quádruplo Azul 12 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 48,
+  "imagem": {
+   "arquivo": "64050.jpg",
+   "largura": 207,
+   "altura": 109
+  }
+ },
+ {
+  "codigo": "64051",
+  "ref": "GM01B01",
+  "nome": "Botão de vidro Agile simples - Azul",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 49,
+  "imagem": {
+   "arquivo": "64051.jpg",
+   "largura": 186,
+   "altura": 118
+  }
+ },
+ {
+  "codigo": "64052",
+  "ref": "GM01B02B",
+  "nome": "Botão de vidro Corsa Novo/Prisma/Celta duplo - Azul",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 50,
+  "imagem": {
+   "arquivo": "64052.jpg",
+   "largura": 175,
+   "altura": 125
+  }
+ },
+ {
+  "codigo": "64072",
+  "ref": "GM05G01",
+  "nome": "Botão farol de milha GM Corsa/Montana/Vectra",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 51,
+  "imagem": {
+   "arquivo": "64072.jpg",
+   "largura": 99,
+   "altura": 89
+  }
+ },
+ {
+  "codigo": "64076",
+  "ref": "GM01A21",
+  "nome": "Botão de vidro Kadett duplo",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 52,
+  "imagem": {
+   "arquivo": "64076.jpg",
+   "largura": 96,
+   "altura": 95
+  }
+ },
+ {
+  "codigo": "64078",
+  "ref": "GM05N04",
+  "nome": "Botão farol de milha Celta 12",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 53,
+  "imagem": {
+   "arquivo": "64078.jpg",
+   "largura": 162,
+   "altura": 68
+  }
+ },
+ {
+  "codigo": "64060",
+  "ref": "GM01A05",
+  "nome": "Botão de vidro Corsa Classic âmbar 6 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 54,
+  "imagem": {
+   "arquivo": "64060.jpg",
+   "largura": 182,
+   "altura": 121
+  }
+ },
+ {
+  "codigo": "64083",
+  "ref": "GM0533",
+  "nome": "Botão de neblina Onix com rabicho",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 55,
+  "imagem": {
+   "arquivo": "64083.jpg",
+   "largura": 172,
+   "altura": 86
+  }
+ },
+ {
+  "codigo": "64084",
+  "ref": "GM0103B",
+  "nome": "Botão de vidro Agile azul traseiro",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 8,
+  "ordem": 56,
+  "imagem": {
+   "arquivo": "64084.jpg",
+   "largura": 152,
+   "altura": 112
+  }
+ },
+ {
+  "codigo": "64085",
+  "ref": "GM0145",
+  "nome": "Botão de vidro traseiro Prisma/Onix/Spin/Cobalt azul 6 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 9,
+  "ordem": 57,
+  "imagem": {
+   "arquivo": "64085.jpg",
+   "largura": 188,
+   "altura": 96
+  }
+ },
+ {
+  "codigo": "640104",
+  "ref": "GM0149",
+  "nome": "Botão de vidro dianteiro Prisma/Onix/Spin/Cobalt azul 6 pinos",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 9,
+  "ordem": 58,
+  "imagem": {
+   "arquivo": "640104.jpg",
+   "largura": 206,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "640105",
+  "ref": "GM0522",
+  "nome": "Botão farol de milha Onix/Cobalt/Spin/Sonic azul",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 9,
+  "ordem": 59,
+  "imagem": {
+   "arquivo": "640105.jpg",
+   "largura": 202,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "640118",
+  "ref": "GM0104B",
+  "nome": "Botão de vidro Agile quádruplo azul",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 9,
+  "ordem": 60,
+  "imagem": {
+   "arquivo": "640118.jpg",
+   "largura": 161,
+   "altura": 117
+  }
+ },
+ {
+  "codigo": "640117",
+  "ref": "GM0107",
+  "nome": "Botão levantador vidro Corsa Classic âmbar",
+  "categoria": "botoes",
+  "subgrupo": "gm",
+  "pagina": 9,
+  "ordem": 61,
+  "imagem": {
+   "arquivo": "640117.jpg",
+   "largura": 287,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "64037",
+  "ref": "VW01A61",
+  "nome": "Botão de vidro simples Gol/Parati âmbar 5 pinos",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 9,
+  "ordem": 62,
+  "imagem": {
+   "arquivo": "64037.jpg",
+   "largura": 181,
+   "altura": 119
+  }
+ },
+ {
+  "codigo": "64014",
+  "ref": "VW01A62",
+  "nome": "Botão de vidro duplo Gol/Parati âmbar 10 pinos",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 9,
+  "ordem": 63,
+  "imagem": {
+   "arquivo": "64014.jpg",
+   "largura": 206,
+   "altura": 108
+  }
+ },
+ {
+  "codigo": "64038",
+  "ref": "VW01R52",
+  "nome": "Botão levantador vidro simples Gol/Parati vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 9,
+  "ordem": 64,
+  "imagem": {
+   "arquivo": "64038.jpg",
+   "largura": 195,
+   "altura": 116
+  }
+ },
+ {
+  "codigo": "64062",
+  "ref": "VW01R56",
+  "nome": "Levantador de vidro duplo Gol/Parati",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 9,
+  "ordem": 65,
+  "imagem": {
+   "arquivo": "64062.jpg",
+   "largura": 200,
+   "altura": 115
+  }
+ },
+ {
+  "codigo": "64035",
+  "ref": "VW01R71",
+  "nome": "Botão levantador vidro Gol 1 estágio simples",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 9,
+  "ordem": 66,
+  "imagem": {
+   "arquivo": "64035.jpg",
+   "largura": 107,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64015",
+  "ref": "VW01R70",
+  "nome": "Botão levantador vidro Gol 1 estágio duplo",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 9,
+  "ordem": 67,
+  "imagem": {
+   "arquivo": "64015.jpg",
+   "largura": 119,
+   "altura": 121
+  }
+ },
+ {
+  "codigo": "64039",
+  "ref": "VW01R13",
+  "nome": "Botão levantador vidro Gol G4/G5 simples duplo click",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 68,
+  "imagem": {
+   "arquivo": "64039.jpg",
+   "largura": 163,
+   "altura": 125
+  }
+ },
+ {
+  "codigo": "64026",
+  "ref": "VW01R14",
+  "nome": "Botão levantador vidro Gol G4/G5 duplo duplo click",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 69,
+  "imagem": {
+   "arquivo": "64026.jpg",
+   "largura": 205,
+   "altura": 93
+  }
+ },
+ {
+  "codigo": "64016",
+  "ref": "VW05R25",
+  "nome": "Botão neblina Gol G7 2016 vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 70,
+  "imagem": {
+   "arquivo": "64016.jpg",
+   "largura": 168,
+   "altura": 116
+  }
+ },
+ {
+  "codigo": "64017",
+  "ref": "VW07R02",
+  "nome": "Botão trava e destrava Gol G5 vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 71,
+  "imagem": {
+   "arquivo": "64017.jpg",
+   "largura": 174,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "64024",
+  "ref": "VW01R35",
+  "nome": "Botão levantador vidro Fox esquerdo traseiro",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 72,
+  "imagem": {
+   "arquivo": "64024.jpg",
+   "largura": 177,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64053",
+  "ref": "VW01R36",
+  "nome": "Botão levantador vidro Fox direito traseiro",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 73,
+  "imagem": {
+   "arquivo": "64053.jpg",
+   "largura": 186,
+   "altura": 132
+  }
+ },
+ {
+  "codigo": "64043",
+  "ref": "VW07R04",
+  "nome": "Botão trava e destrava Fox 2010-2016",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 74,
+  "imagem": {
+   "arquivo": "64043.jpg",
+   "largura": 166,
+   "altura": 130
+  }
+ },
+ {
+  "codigo": "64028",
+  "ref": "VW05A09",
+  "nome": "Botão neblina Gol/Parati",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 75,
+  "imagem": {
+   "arquivo": "64028.jpg",
+   "largura": 97,
+   "altura": 132
+  }
+ },
+ {
+  "codigo": "64036",
+  "ref": "VW01G49",
+  "nome": "Botão levantador vidro Gol Bola / Gol GII verde",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 76,
+  "imagem": {
+   "arquivo": "64036.jpg",
+   "largura": 156,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "64067",
+  "ref": "VW01A49-1",
+  "nome": "Botão levantador de vidro Gol Bola",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 77,
+  "imagem": {
+   "arquivo": "64067.jpg",
+   "largura": 189,
+   "altura": 111
+  }
+ },
+ {
+  "codigo": "64030",
+  "ref": "VW01149A",
+  "nome": "Botão levantador vidro Polo/T-Cross/Nivus simples",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 78,
+  "imagem": {
+   "arquivo": "64030.jpg",
+   "largura": 115,
+   "altura": 111
+  }
+ },
+ {
+  "codigo": "64080",
+  "ref": "VW011A84",
+  "nome": "Botão de vidro T-Cross/Polo/Virtus duplo",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 10,
+  "ordem": 79,
+  "imagem": {
+   "arquivo": "64080.jpg",
+   "largura": 152,
+   "altura": 125
+  }
+ },
+ {
+  "codigo": "64031",
+  "ref": "VW011A09F",
+  "nome": "Botão levantador vidro Tiguan/Taos/Golf quádruplo",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 80,
+  "imagem": {
+   "arquivo": "64031.jpg",
+   "largura": 109,
+   "altura": 128
+  }
+ },
+ {
+  "codigo": "64042",
+  "ref": "VW01A66",
+  "nome": "Botão levantador vidro Tiguan/Jetta/Passat/Golf",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 81,
+  "imagem": {
+   "arquivo": "64042.jpg",
+   "largura": 116,
+   "altura": 117
+  }
+ },
+ {
+  "codigo": "64057",
+  "ref": "VW01A83",
+  "nome": "Botão levantador de vidro Up simples",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 82,
+  "imagem": {
+   "arquivo": "64057.jpg",
+   "largura": 115,
+   "altura": 118
+  }
+ },
+ {
+  "codigo": "64061",
+  "ref": "VW05A21",
+  "nome": "Botão neblina Gol G6/Voyage 2013",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 83,
+  "imagem": {
+   "arquivo": "64061.jpg",
+   "largura": 181,
+   "altura": 122
+  }
+ },
+ {
+  "codigo": "64063",
+  "ref": "VW01A84",
+  "nome": "Botão levantador de vidro Up duplo",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 84,
+  "imagem": {
+   "arquivo": "64063.jpg",
+   "largura": 133,
+   "altura": 130
+  }
+ },
+ {
+  "codigo": "64064",
+  "ref": "VW07R01",
+  "nome": "Botão p/ trava porta Fox antigo 2009",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 85,
+  "imagem": {
+   "arquivo": "64064.jpg",
+   "largura": 196,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "64066",
+  "ref": "VW07A03",
+  "nome": "Botão trava de vidro Fox/Polo",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 86,
+  "imagem": {
+   "arquivo": "64066.jpg",
+   "largura": 112,
+   "altura": 94
+  }
+ },
+ {
+  "codigo": "64069",
+  "ref": "VW05R63",
+  "nome": "Botão farol de milha Gol G6 5 pinos",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 87,
+  "imagem": {
+   "arquivo": "64069.jpg",
+   "largura": 190,
+   "altura": 72
+  }
+ },
+ {
+  "codigo": "64070",
+  "ref": "VW05R13",
+  "nome": "Botão farol de milha Fox G10",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 88,
+  "imagem": {
+   "arquivo": "64070.jpg",
+   "largura": 97,
+   "altura": 89
+  }
+ },
+ {
+  "codigo": "64073",
+  "ref": "VW09R05",
+  "nome": "Botão porta malas Gol G6",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 89,
+  "imagem": {
+   "arquivo": "64073.jpg",
+   "largura": 114,
+   "altura": 82
+  }
+ },
+ {
+  "codigo": "64075",
+  "ref": "VW01A23",
+  "nome": "Botão de vidro Gol Quadrado/Santana",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 90,
+  "imagem": {
+   "arquivo": "64075.jpg",
+   "largura": 104,
+   "altura": 120
+  }
+ },
+ {
+  "codigo": "64086",
+  "ref": "VW0191",
+  "nome": "Botão levantador vidro Voyage traseiro direito G7",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 11,
+  "ordem": 91,
+  "imagem": {
+   "arquivo": "64086.jpg",
+   "largura": 196,
+   "altura": 136
+  }
+ },
+ {
+  "codigo": "64087",
+  "ref": "VW0192",
+  "nome": "Botão bloqueio vidro Gol G7/Voyage vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 92,
+  "imagem": {
+   "arquivo": "64087.jpg",
+   "largura": 173,
+   "altura": 132
+  }
+ },
+ {
+  "codigo": "64088",
+  "ref": "VW0193",
+  "nome": "Botão levantador vidro Voyage traseiro esquerdo G7",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 93,
+  "imagem": {
+   "arquivo": "64088.jpg",
+   "largura": 166,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64091",
+  "ref": "VW0172",
+  "nome": "Levantador de vidro duplo Gol G4",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 94,
+  "imagem": {
+   "arquivo": "64091.jpg",
+   "largura": 200,
+   "altura": 115
+  }
+ },
+ {
+  "codigo": "64092",
+  "ref": "VW0154",
+  "nome": "Botão levantador vidro Gol G5 direito vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 95,
+  "imagem": {
+   "arquivo": "64092.jpg",
+   "largura": 196,
+   "altura": 121
+  }
+ },
+ {
+  "codigo": "64093",
+  "ref": "VW0120",
+  "nome": "Botão levantador vidro Gol G5 esquerdo vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 96,
+  "imagem": {
+   "arquivo": "64093.jpg",
+   "largura": 193,
+   "altura": 120
+  }
+ },
+ {
+  "codigo": "64094",
+  "ref": "VW0169",
+  "nome": "Botão levantador vidro Gol G6 traseiro vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 97,
+  "imagem": {
+   "arquivo": "64094.jpg",
+   "largura": 176,
+   "altura": 125
+  }
+ },
+ {
+  "codigo": "64095",
+  "ref": "VW0167",
+  "nome": "Botão levantador vidro Gol G6/Voyage traseiro",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 98,
+  "imagem": {
+   "arquivo": "64095.jpg",
+   "largura": 189,
+   "altura": 132
+  }
+ },
+ {
+  "codigo": "64096",
+  "ref": "VW0168",
+  "nome": "Botão bloqueio vidro Gol G6/Voyage vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 99,
+  "imagem": {
+   "arquivo": "64096.jpg",
+   "largura": 182,
+   "altura": 127
+  }
+ },
+ {
+  "codigo": "64097",
+  "ref": "VW0510",
+  "nome": "Botão neblina Gol G5/Voyage âmbar",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 100,
+  "imagem": {
+   "arquivo": "64097.jpg",
+   "largura": 177,
+   "altura": 124
+  }
+ },
+ {
+  "codigo": "64098",
+  "ref": "VW0705",
+  "nome": "Botão trava vidro Gol G5/Voyage vermelho",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 101,
+  "imagem": {
+   "arquivo": "64098.jpg",
+   "largura": 155,
+   "altura": 123
+  }
+ },
+ {
+  "codigo": "640111",
+  "ref": "VW0936",
+  "nome": "Botão porta malas Gol G7",
+  "categoria": "botoes",
+  "subgrupo": "vw",
+  "pagina": 12,
+  "ordem": 102,
+  "imagem": {
+   "arquivo": "640111.jpg",
+   "largura": 328,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "64044",
+  "ref": "RN01A03",
+  "nome": "Botão levantador vidro Renault Clio/Scenic simples",
+  "categoria": "botoes",
+  "subgrupo": "renault",
+  "pagina": 13,
+  "ordem": 103,
+  "imagem": {
+   "arquivo": "64044.jpg",
+   "largura": 68,
+   "altura": 131
+  }
+ },
+ {
+  "codigo": "64029",
+  "ref": "RN01A50",
+  "nome": "Botão do Sandero/Duster/Logan/Master duplo",
+  "categoria": "botoes",
+  "subgrupo": "renault",
+  "pagina": 13,
+  "ordem": 104,
+  "imagem": {
+   "arquivo": "64029.jpg",
+   "largura": 104,
+   "altura": 128
+  }
+ },
+ {
+  "codigo": "640100",
+  "ref": "RN01A13",
+  "nome": "Botão levantador vidro Renault Logan 2009/Sandero",
+  "categoria": "botoes",
+  "subgrupo": "renault",
+  "pagina": 13,
+  "ordem": 105,
+  "imagem": {
+   "arquivo": "640100.jpg",
+   "largura": 148,
+   "altura": 128
+  }
+ },
+ {
+  "codigo": "64033",
+  "ref": "HD01A34",
+  "nome": "Botão levantador vidro Civic 06-12 âmbar 22 pinos",
+  "categoria": "botoes",
+  "subgrupo": "honda",
+  "pagina": 13,
+  "ordem": 106,
+  "imagem": {
+   "arquivo": "64033.jpg",
+   "largura": 103,
+   "altura": 122
+  }
+ },
+ {
+  "codigo": "64058",
+  "ref": "HD01A07",
+  "nome": "Botão levantador de vidro Fit/City 2011",
+  "categoria": "botoes",
+  "subgrupo": "honda",
+  "pagina": 13,
+  "ordem": 107,
+  "imagem": {
+   "arquivo": "64058.jpg",
+   "largura": 190,
+   "altura": 120
+  }
+ },
+ {
+  "codigo": "64090",
+  "ref": "HD0113",
+  "nome": "Botão levantador vidro CRV 06-09 âmbar 22 pinos",
+  "categoria": "botoes",
+  "subgrupo": "honda",
+  "pagina": 13,
+  "ordem": 108,
+  "imagem": {
+   "arquivo": "64090.jpg",
+   "largura": 168,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "64059",
+  "ref": "NS01A11",
+  "nome": "Botão levantador de vidro Versa 12-19",
+  "categoria": "botoes",
+  "subgrupo": "nissan",
+  "pagina": 13,
+  "ordem": 109,
+  "imagem": {
+   "arquivo": "64059.jpg",
+   "largura": 150,
+   "altura": 127
+  }
+ },
+ {
+  "codigo": "64068",
+  "ref": "HY011A48",
+  "nome": "Botão de vidro HB20 quádruplo 2017",
+  "categoria": "botoes",
+  "subgrupo": "hyundai-kia",
+  "pagina": 14,
+  "ordem": 110,
+  "imagem": {
+   "arquivo": "64068.jpg",
+   "largura": 131,
+   "altura": 100
+  }
+ },
+ {
+  "codigo": "64081",
+  "ref": "HY01169",
+  "nome": "Botão levantador vidro HB20 duplo 12-19",
+  "categoria": "botoes",
+  "subgrupo": "hyundai-kia",
+  "pagina": 14,
+  "ordem": 111,
+  "imagem": {
+   "arquivo": "64081.jpg",
+   "largura": 160,
+   "altura": 134
+  }
+ },
+ {
+  "codigo": "640114",
+  "ref": "HY01175",
+  "nome": "Botão de vidro HB20 simples",
+  "categoria": "botoes",
+  "subgrupo": "hyundai-kia",
+  "pagina": 14,
+  "ordem": 112,
+  "imagem": {
+   "arquivo": "640114.jpg",
+   "largura": 134,
+   "altura": 122
+  }
+ },
+ {
+  "codigo": "640109",
+  "ref": "HY01149",
+  "nome": "Botão levantador vidro I30 quádruplo",
+  "categoria": "botoes",
+  "subgrupo": "hyundai-kia",
+  "pagina": 14,
+  "ordem": 113,
+  "imagem": {
+   "arquivo": "640109.jpg",
+   "largura": 197,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "640106",
+  "ref": "PG0121",
+  "nome": "Botão levantador vidro 207/307/C4 âmbar 4 pinos",
+  "categoria": "botoes",
+  "subgrupo": "peugeot",
+  "pagina": 14,
+  "ordem": 114,
+  "imagem": {
+   "arquivo": "640106.jpg",
+   "largura": 159,
+   "altura": 120
+  }
+ },
+ {
+  "codigo": "640107",
+  "ref": "PG0117",
+  "nome": "Botão levantador vidro C3/Picasso/207 âmbar 13 pinos",
+  "categoria": "botoes",
+  "subgrupo": "peugeot",
+  "pagina": 14,
+  "ordem": 115,
+  "imagem": {
+   "arquivo": "640107.jpg",
+   "largura": 161,
+   "altura": 119
+  }
+ },
+ {
+  "codigo": "640108",
+  "ref": "PG0118-1",
+  "nome": "Botão levantador vidro Peugeot 307/407 âmbar 9 pinos",
+  "categoria": "botoes",
+  "subgrupo": "peugeot",
+  "pagina": 14,
+  "ordem": 116,
+  "imagem": {
+   "arquivo": "640108.jpg",
+   "largura": 165,
+   "altura": 131
+  }
+ },
+ {
+  "codigo": "64079",
+  "ref": null,
+  "nome": "Botão redondo universal",
+  "categoria": "botoes",
+  "subgrupo": "outros",
+  "pagina": 15,
+  "ordem": 117,
+  "imagem": {
+   "arquivo": "64079.jpg",
+   "largura": 97,
+   "altura": 93
+  }
+ },
+ {
+  "codigo": "63009",
+  "ref": null,
+  "nome": "Micro ventilador 12012038 4 fios",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 118,
+  "imagem": {
+   "arquivo": "63009.jpg",
+   "largura": 110,
+   "altura": 95
+  }
+ },
+ {
+  "codigo": "63010",
+  "ref": null,
+  "nome": "Micro ventilador 808025",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 119,
+  "imagem": {
+   "arquivo": "63010.jpg",
+   "largura": 128,
+   "altura": 89
+  }
+ },
+ {
+  "codigo": "63011",
+  "ref": null,
+  "nome": "Ventilador bivolt 110/220V 5W",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 120,
+  "imagem": {
+   "arquivo": "63011.jpg",
+   "largura": 102,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "63012",
+  "ref": null,
+  "nome": "Ventilador bivolt 110/240V 10W",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 121,
+  "imagem": {
+   "arquivo": "63012.jpg",
+   "largura": 102,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "63013",
+  "ref": null,
+  "nome": "Ventilador bivolt 110/240V 16W",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 122,
+  "imagem": {
+   "arquivo": "63013.jpg",
+   "largura": 102,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "63014",
+  "ref": null,
+  "nome": "Ventilador bivolt 110/240V 25W",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 123,
+  "imagem": {
+   "arquivo": "63014.jpg",
+   "largura": 102,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "63015",
+  "ref": null,
+  "nome": "Ventilador bivolt 110/240V 34W",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 124,
+  "imagem": {
+   "arquivo": "63015.jpg",
+   "largura": 102,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "63042",
+  "ref": null,
+  "nome": "Grelha plástica c/ filtro p/ microventilador 120x120",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 125,
+  "imagem": {
+   "arquivo": "63042.jpg",
+   "largura": 68,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "63022",
+  "ref": null,
+  "nome": "Micro ventilador 120x120x25mm 24V",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 126,
+  "imagem": {
+   "arquivo": "63022.jpg",
+   "largura": 100,
+   "altura": 115
+  }
+ },
+ {
+  "codigo": "63029",
+  "ref": null,
+  "nome": "Micro ventilador 60x60x15mm 12V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 127,
+  "imagem": {
+   "arquivo": "63029.jpg",
+   "largura": 108,
+   "altura": 112
+  }
+ },
+ {
+  "codigo": "63026",
+  "ref": null,
+  "nome": "Micro ventilador 60x60x25mm 12V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 128,
+  "imagem": {
+   "arquivo": "63026.jpg",
+   "largura": 102,
+   "altura": 112
+  }
+ },
+ {
+  "codigo": "63025",
+  "ref": null,
+  "nome": "Micro ventilador 60x60x25mm 24V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 17,
+  "ordem": 129,
+  "imagem": {
+   "arquivo": "63025.jpg",
+   "largura": 103,
+   "altura": 112
+  }
+ },
+ {
+  "codigo": "63027",
+  "ref": null,
+  "nome": "Micro ventilador 80x80x25mm 24V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 130,
+  "imagem": {
+   "arquivo": "63027.jpg",
+   "largura": 101,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "63019",
+  "ref": null,
+  "nome": "Micro ventilador 80x80x25mm 24V c/ rolamento",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 131,
+  "imagem": {
+   "arquivo": "63019.jpg",
+   "largura": 132,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "63055",
+  "ref": null,
+  "nome": "Micro ventilador 80x80x32mm 12V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 132,
+  "imagem": {
+   "arquivo": "63055.jpg",
+   "largura": 108,
+   "altura": 119
+  }
+ },
+ {
+  "codigo": "63024",
+  "ref": null,
+  "nome": "Micro ventilador 80x80x38mm 110/240V",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 133,
+  "imagem": {
+   "arquivo": "63024.jpg",
+   "largura": 111,
+   "altura": 118
+  }
+ },
+ {
+  "codigo": "63028",
+  "ref": null,
+  "nome": "Micro ventilador 92x92x25mm 12V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 134,
+  "imagem": {
+   "arquivo": "63028.jpg",
+   "largura": 106,
+   "altura": 114
+  }
+ },
+ {
+  "codigo": "63023",
+  "ref": null,
+  "nome": "Micro ventilador 92x92x25mm 24V",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 135,
+  "imagem": {
+   "arquivo": "63023.jpg",
+   "largura": 106,
+   "altura": 114
+  }
+ },
+ {
+  "codigo": "63045",
+  "ref": null,
+  "nome": "Microventilador 120x120x25mm 12V",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 136,
+  "imagem": {
+   "arquivo": "63045.jpg",
+   "largura": 127,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "63041",
+  "ref": null,
+  "nome": "Microventilador 120x38 bivolt",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 137,
+  "imagem": {
+   "arquivo": "63041.jpg",
+   "largura": 136,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "63043",
+  "ref": null,
+  "nome": "Microventilador 40x40x10 12V",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 138,
+  "imagem": {
+   "arquivo": "63043.jpg",
+   "largura": 116,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "63039",
+  "ref": null,
+  "nome": "Microventilador 80x25 bivolt",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 139,
+  "imagem": {
+   "arquivo": "63039.jpg",
+   "largura": 126,
+   "altura": 113
+  }
+ },
+ {
+  "codigo": "63040",
+  "ref": null,
+  "nome": "Microventilador 92x25 bivolt",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 140,
+  "imagem": {
+   "arquivo": "63040.jpg",
+   "largura": 110,
+   "altura": 117
+  }
+ },
+ {
+  "codigo": "63020",
+  "ref": null,
+  "nome": "Ventilador 120x120x25mm 24V c/ bucha",
+  "categoria": "microventiladores",
+  "subgrupo": null,
+  "pagina": 18,
+  "ordem": 141,
+  "imagem": {
+   "arquivo": "63020.jpg",
+   "largura": 273,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61039",
+  "ref": "GC-CC-001",
+  "nome": "Chicote antena Civic CRV 07-11 / Fit 04-14",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 142,
+  "imagem": {
+   "arquivo": "61039.jpg",
+   "largura": 144,
+   "altura": 109
+  }
+ },
+ {
+  "codigo": "61009",
+  "ref": "GC-CC-002",
+  "nome": "Chicote de som Onix/Prisma/Cobalt/Spin/Toro/Bravo",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 143,
+  "imagem": {
+   "arquivo": "61009.jpg",
+   "largura": 160,
+   "altura": 105
+  }
+ },
+ {
+  "codigo": "61040",
+  "ref": "GC-CC-003",
+  "nome": "Chicote de som HB20/Veloster/IX35",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 144,
+  "imagem": {
+   "arquivo": "61040.jpg",
+   "largura": 166,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "610209",
+  "ref": "GC-CC-004",
+  "nome": "Chicote som Hyundai HB20/IX35 com RCA",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 145,
+  "imagem": {
+   "arquivo": "610209.jpg",
+   "largura": 152,
+   "altura": 113
+  }
+ },
+ {
+  "codigo": "61010",
+  "ref": "GC-CC-005",
+  "nome": "Chicote de som Duster/Sandero/Logan",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 146,
+  "imagem": {
+   "arquivo": "61010.jpg",
+   "largura": 165,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "61011",
+  "ref": "GC-CC-006",
+  "nome": "Chicote som March/Sentra/Versa/Kicks/Frontier",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 147,
+  "imagem": {
+   "arquivo": "61011.jpg",
+   "largura": 147,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "610210",
+  "ref": "GC-CC-008",
+  "nome": "Chicote som GM Nova S10 ou Blazer",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 148,
+  "imagem": {
+   "arquivo": "610210.jpg",
+   "largura": 165,
+   "altura": 100
+  }
+ },
+ {
+  "codigo": "61012",
+  "ref": "GC-CC-009",
+  "nome": "Chicote de som Fit/City/Civic/CRV 12-17",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 149,
+  "imagem": {
+   "arquivo": "61012.jpg",
+   "largura": 146,
+   "altura": 113
+  }
+ },
+ {
+  "codigo": "61013",
+  "ref": "GC-CC-010",
+  "nome": "Chicote de som Civic/City/CRV 07-11",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 150,
+  "imagem": {
+   "arquivo": "61013.jpg",
+   "largura": 175,
+   "altura": 57
+  }
+ },
+ {
+  "codigo": "61093",
+  "ref": "GC-CC-011",
+  "nome": "Chicote para som Peugeot 307",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 151,
+  "imagem": {
+   "arquivo": "61093.jpg",
+   "largura": 181,
+   "altura": 76
+  }
+ },
+ {
+  "codigo": "61014",
+  "ref": "GC-CC-012",
+  "nome": "Chicote antena Civic/CRV/Fit/City/HRV",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 152,
+  "imagem": {
+   "arquivo": "61014.jpg",
+   "largura": 173,
+   "altura": 93
+  }
+ },
+ {
+  "codigo": "61051",
+  "ref": "GC-CC-013",
+  "nome": "Chicote antena Fusion/Edge/Focus/F150/Ecosport",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 20,
+  "ordem": 153,
+  "imagem": {
+   "arquivo": "61051.jpg",
+   "largura": 157,
+   "altura": 107
+  }
+ },
+ {
+  "codigo": "61015",
+  "ref": "GC-CC-014",
+  "nome": "Chicote antena March/Tiida/Sentra/Frontier/Kicks",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 154,
+  "imagem": {
+   "arquivo": "61015.jpg",
+   "largura": 180,
+   "altura": 95
+  }
+ },
+ {
+  "codigo": "61091",
+  "ref": "GC-CC-015",
+  "nome": "Chicote antena Toyota Hilux/Etios/Corolla 2012",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 155,
+  "imagem": {
+   "arquivo": "61091.jpg",
+   "largura": 155,
+   "altura": 108
+  }
+ },
+ {
+  "codigo": "61016",
+  "ref": "GC-CC-016",
+  "nome": "Chicote antena HB20/IX35/Veloster/Soul/Sportage",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 156,
+  "imagem": {
+   "arquivo": "61016.jpg",
+   "largura": 164,
+   "altura": 102
+  }
+ },
+ {
+  "codigo": "61017",
+  "ref": "GC-CC-017",
+  "nome": "Chicote antena Renault/VW/Toyota/Hyundai/Peugeot",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 157,
+  "imagem": {
+   "arquivo": "61017.jpg",
+   "largura": 166,
+   "altura": 107
+  }
+ },
+ {
+  "codigo": "61050",
+  "ref": "GC-CC-018",
+  "nome": "Chicote antena universal amplificada",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 158,
+  "imagem": {
+   "arquivo": "61050.jpg",
+   "largura": 167,
+   "altura": 100
+  }
+ },
+ {
+  "codigo": "61018",
+  "ref": "GC-CC-019",
+  "nome": "Chicote som Toyota Corolla/Fielder/Hilux",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 159,
+  "imagem": {
+   "arquivo": "61018.jpg",
+   "largura": 126,
+   "altura": 103
+  }
+ },
+ {
+  "codigo": "61041",
+  "ref": "GC-CC-020",
+  "nome": "Chicote para som automotivo - FIC",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 160,
+  "imagem": {
+   "arquivo": "61041.jpg",
+   "largura": 138,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "61019",
+  "ref": "GC-CC-021",
+  "nome": "Chicote para som automotivo - 16 vias",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 161,
+  "imagem": {
+   "arquivo": "61019.jpg",
+   "largura": 177,
+   "altura": 91
+  }
+ },
+ {
+  "codigo": "61052",
+  "ref": "GC-CC-026",
+  "nome": "Chicote extensor Quadlock 40 pinos",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 162,
+  "imagem": {
+   "arquivo": "61052.jpg",
+   "largura": 151,
+   "altura": 111
+  }
+ },
+ {
+  "codigo": "61073",
+  "ref": null,
+  "nome": "Toyota chicote para som automotivo",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 163,
+  "imagem": {
+   "arquivo": "61073.jpg",
+   "largura": 158,
+   "altura": 100
+  }
+ },
+ {
+  "codigo": "61088",
+  "ref": null,
+  "nome": "Chicote extensor Quadlock 52 pinos VW/Audi",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 164,
+  "imagem": {
+   "arquivo": "61088.jpg",
+   "largura": 171,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "61049",
+  "ref": null,
+  "nome": "Chicote p/ centralina KK8",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 21,
+  "ordem": 165,
+  "imagem": {
+   "arquivo": "61049.jpg",
+   "largura": 400,
+   "altura": 301
+  }
+ },
+ {
+  "codigo": "61090",
+  "ref": "GC-022",
+  "nome": "Chicote para som GC-022",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 22,
+  "ordem": 166,
+  "imagem": {
+   "arquivo": "61090.jpg",
+   "largura": 400,
+   "altura": 221
+  }
+ },
+ {
+  "codigo": "61092",
+  "ref": "GC-007",
+  "nome": "Chicote para som GC-007",
+  "categoria": "chicotes",
+  "subgrupo": null,
+  "pagina": 22,
+  "ordem": 167,
+  "imagem": {
+   "arquivo": "61092.jpg",
+   "largura": 400,
+   "altura": 184
+  }
+ },
+ {
+  "codigo": "61054",
+  "ref": null,
+  "nome": "Lâmpada LED H1 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 168,
+  "imagem": {
+   "arquivo": "61054.jpg",
+   "largura": 90,
+   "altura": 190
+  }
+ },
+ {
+  "codigo": "61055",
+  "ref": null,
+  "nome": "Lâmpada LED H3 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 169,
+  "imagem": {
+   "arquivo": "61055.jpg",
+   "largura": 90,
+   "altura": 186
+  }
+ },
+ {
+  "codigo": "61056",
+  "ref": null,
+  "nome": "Lâmpada LED H4 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 170,
+  "imagem": {
+   "arquivo": "61056.jpg",
+   "largura": 113,
+   "altura": 197
+  }
+ },
+ {
+  "codigo": "61057",
+  "ref": null,
+  "nome": "Lâmpada LED HB3 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 171,
+  "imagem": {
+   "arquivo": "61057.jpg",
+   "largura": 97,
+   "altura": 194
+  }
+ },
+ {
+  "codigo": "61058",
+  "ref": null,
+  "nome": "Lâmpada LED HB4 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 172,
+  "imagem": {
+   "arquivo": "61058.jpg",
+   "largura": 97,
+   "altura": 194
+  }
+ },
+ {
+  "codigo": "61059",
+  "ref": null,
+  "nome": "Lâmpada LED H7 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 173,
+  "imagem": {
+   "arquivo": "61059.jpg",
+   "largura": 94,
+   "altura": 196
+  }
+ },
+ {
+  "codigo": "61060",
+  "ref": null,
+  "nome": "Lâmpada LED H11 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 174,
+  "imagem": {
+   "arquivo": "61060.jpg",
+   "largura": 89,
+   "altura": 193
+  }
+ },
+ {
+  "codigo": "61061",
+  "ref": null,
+  "nome": "Lâmpada LED H27 6000K 14000 LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 175,
+  "imagem": {
+   "arquivo": "61061.jpg",
+   "largura": 100,
+   "altura": 206
+  }
+ },
+ {
+  "codigo": "61024",
+  "ref": null,
+  "nome": "Lâmpada LED T10-3SMD-2835",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 176,
+  "imagem": {
+   "arquivo": "61024.jpg",
+   "largura": 117,
+   "altura": 157
+  }
+ },
+ {
+  "codigo": "61025",
+  "ref": null,
+  "nome": "Lâmpada LED T10-COB",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 177,
+  "imagem": {
+   "arquivo": "61025.jpg",
+   "largura": 175,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "61026",
+  "ref": null,
+  "nome": "Lâmpada LED JR-09-27-25mm",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 178,
+  "imagem": {
+   "arquivo": "61026.jpg",
+   "largura": 142,
+   "altura": 123
+  }
+ },
+ {
+  "codigo": "61027",
+  "ref": null,
+  "nome": "Lâmpada LED JR-14-42-25mm",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 24,
+  "ordem": 179,
+  "imagem": {
+   "arquivo": "61027.jpg",
+   "largura": 139,
+   "altura": 138
+  }
+ },
+ {
+  "codigo": "61028",
+  "ref": null,
+  "nome": "Lâmpada LED 5730-41mm",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 180,
+  "imagem": {
+   "arquivo": "61028.jpg",
+   "largura": 181,
+   "altura": 61
+  }
+ },
+ {
+  "codigo": "610200",
+  "ref": null,
+  "nome": "Lâmpada LED (2 unid) 36mm",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 181,
+  "imagem": {
+   "arquivo": "610200.jpg",
+   "largura": 248,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "610201",
+  "ref": null,
+  "nome": "Lâmpada LED (2 unid) 31mm",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 182,
+  "imagem": {
+   "arquivo": "610201.jpg",
+   "largura": 294,
+   "altura": 394
+  }
+ },
+ {
+  "codigo": "610202",
+  "ref": null,
+  "nome": "Lâmpada LED T10 c/6S 5050 Canbus",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 183,
+  "imagem": {
+   "arquivo": "610202.jpg",
+   "largura": 225,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "610212",
+  "ref": null,
+  "nome": "Lâmpada LED H16 6000K 14000LM",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 184,
+  "imagem": {
+   "arquivo": "610212.jpg",
+   "largura": 90,
+   "altura": 186
+  }
+ },
+ {
+  "codigo": "61094",
+  "ref": null,
+  "nome": "Lâmpada LED 24 leds Canbus",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 185,
+  "imagem": {
+   "arquivo": "61094.jpg",
+   "largura": 225,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "61095",
+  "ref": null,
+  "nome": "Lâmpada LED 30 leds Canbus",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 186,
+  "imagem": {
+   "arquivo": "61095.jpg",
+   "largura": 225,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "61096",
+  "ref": null,
+  "nome": "Lâmpada LED 24 pontos (6327)",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 187,
+  "imagem": {
+   "arquivo": "61096.jpg",
+   "largura": 325,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "61097",
+  "ref": null,
+  "nome": "Lâmpada LED 60 pontos (6334)",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 188,
+  "imagem": {
+   "arquivo": "61097.jpg",
+   "largura": 199,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "61098",
+  "ref": null,
+  "nome": "Lâmpada LED 9 pontos (6532)",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 189,
+  "imagem": {
+   "arquivo": "61098.jpg",
+   "largura": 225,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "61099",
+  "ref": null,
+  "nome": "Lâmpada LED rolo 5mts RGB",
+  "categoria": "led",
+  "subgrupo": null,
+  "pagina": 25,
+  "ordem": 190,
+  "imagem": {
+   "arquivo": "61099.jpg",
+   "largura": 400,
+   "altura": 319
+  }
+ },
+ {
+  "codigo": "66011-2",
+  "ref": "VW001",
+  "nome": "Máq. vidro Gol GII 2P direito s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 191,
+  "imagem": {
+   "arquivo": "66011-2.jpg",
+   "largura": 264,
+   "altura": 186
+  }
+ },
+ {
+  "codigo": "66011-3",
+  "ref": "VW001",
+  "nome": "Máq. vidro Gol GII 2P esquerdo s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 192,
+  "imagem": {
+   "arquivo": "66011-3.jpg",
+   "largura": 256,
+   "altura": 186
+  }
+ },
+ {
+  "codigo": "66008-2",
+  "ref": "VW003",
+  "nome": "Máq. vidro Gol direito s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 193,
+  "imagem": {
+   "arquivo": "66008-2.jpg",
+   "largura": 208,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "66008-3",
+  "ref": "VW003",
+  "nome": "Máq. vidro Gol esquerdo s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 194,
+  "imagem": {
+   "arquivo": "66008-3.jpg",
+   "largura": 201,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "66009-2",
+  "ref": "VW004",
+  "nome": "Máq. vidro Fox 4P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 195,
+  "imagem": {
+   "arquivo": "66009-2.jpg",
+   "largura": 283,
+   "altura": 186
+  }
+ },
+ {
+  "codigo": "66009-3",
+  "ref": "VW004",
+  "nome": "Máq. vidro Fox 4P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 196,
+  "imagem": {
+   "arquivo": "66009-3.jpg",
+   "largura": 272,
+   "altura": 187
+  }
+ },
+ {
+  "codigo": "66025-2",
+  "ref": "VW008",
+  "nome": "Máq. vidro Gol 2P G5 direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 197,
+  "imagem": {
+   "arquivo": "66025-2.jpg",
+   "largura": 275,
+   "altura": 197
+  }
+ },
+ {
+  "codigo": "66025-3",
+  "ref": "VW008",
+  "nome": "Máq. vidro Gol 2P G5 esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 198,
+  "imagem": {
+   "arquivo": "66025-3.jpg",
+   "largura": 265,
+   "altura": 198
+  }
+ },
+ {
+  "codigo": "66012-2",
+  "ref": "VW013",
+  "nome": "Máq. vidro Gol Special G3/4 2P direito s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 199,
+  "imagem": {
+   "arquivo": "66012-2.jpg",
+   "largura": 281,
+   "altura": 195
+  }
+ },
+ {
+  "codigo": "66012-3",
+  "ref": "VW013",
+  "nome": "Máq. vidro Gol Special G3/4 2P esquerdo s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 200,
+  "imagem": {
+   "arquivo": "66012-3.jpg",
+   "largura": 272,
+   "altura": 196
+  }
+ },
+ {
+  "codigo": "66010-2",
+  "ref": "VW018",
+  "nome": "Máq. vidro Santana direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 201,
+  "imagem": {
+   "arquivo": "66010-2.jpg",
+   "largura": 238,
+   "altura": 168
+  }
+ },
+ {
+  "codigo": "66010-3",
+  "ref": "VW018",
+  "nome": "Máq. vidro Santana esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 27,
+  "ordem": 202,
+  "imagem": {
+   "arquivo": "66010-3.jpg",
+   "largura": 230,
+   "altura": 167
+  }
+ },
+ {
+  "codigo": "66017-2",
+  "ref": "FA001",
+  "nome": "Máq. vidro Novo Uno 4P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 203,
+  "imagem": {
+   "arquivo": "66017-2.jpg",
+   "largura": 280,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "66017-3",
+  "ref": "FA001",
+  "nome": "Máq. vidro Novo Uno 4P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 204,
+  "imagem": {
+   "arquivo": "66017-3.jpg",
+   "largura": 270,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "66001-2",
+  "ref": "FA002",
+  "nome": "Máq. vidro Novo Palio 2P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 205,
+  "imagem": {
+   "arquivo": "66001-2.jpg",
+   "largura": 263,
+   "altura": 176
+  }
+ },
+ {
+  "codigo": "66001-3",
+  "ref": "FA002",
+  "nome": "Máq. vidro Novo Palio 2P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 206,
+  "imagem": {
+   "arquivo": "66001-3.jpg",
+   "largura": 254,
+   "altura": 177
+  }
+ },
+ {
+  "codigo": "66002-2",
+  "ref": "FA003",
+  "nome": "Máq. vidro Novo Palio 4P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 207,
+  "imagem": {
+   "arquivo": "66002-2.jpg",
+   "largura": 296,
+   "altura": 155
+  }
+ },
+ {
+  "codigo": "66002-3",
+  "ref": "FA003",
+  "nome": "Máq. vidro Novo Palio 4P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 208,
+  "imagem": {
+   "arquivo": "66002-3.jpg",
+   "largura": 286,
+   "altura": 155
+  }
+ },
+ {
+  "codigo": "66013-2",
+  "ref": "FA004",
+  "nome": "Máq. vidro Uno antigo 2P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 209,
+  "imagem": {
+   "arquivo": "66013-2.jpg",
+   "largura": 244,
+   "altura": 181
+  }
+ },
+ {
+  "codigo": "66013-3",
+  "ref": "FA004",
+  "nome": "Máq. vidro Uno antigo 2P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 210,
+  "imagem": {
+   "arquivo": "66013-3.jpg",
+   "largura": 236,
+   "altura": 181
+  }
+ },
+ {
+  "codigo": "66003-2",
+  "ref": "FA005",
+  "nome": "Máq. vidro Uno antigo direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 211,
+  "imagem": {
+   "arquivo": "66003-2.jpg",
+   "largura": 280,
+   "altura": 195
+  }
+ },
+ {
+  "codigo": "66003-3",
+  "ref": "FA005",
+  "nome": "Máq. vidro Uno antigo esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 212,
+  "imagem": {
+   "arquivo": "66003-3.jpg",
+   "largura": 270,
+   "altura": 195
+  }
+ },
+ {
+  "codigo": "66014-2",
+  "ref": "FA007",
+  "nome": "Máq. vidro Novo Uno 2P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 213,
+  "imagem": {
+   "arquivo": "66014-2.jpg",
+   "largura": 400,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "66014-3",
+  "ref": "FA007",
+  "nome": "Máq. vidro Novo Uno 2P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 28,
+  "ordem": 214,
+  "imagem": {
+   "arquivo": "66014-3.jpg",
+   "largura": 400,
+   "altura": 161
+  }
+ },
+ {
+  "codigo": "66004-2",
+  "ref": "FA010",
+  "nome": "Máq. vidro Palio 4P traseiro direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 215,
+  "imagem": {
+   "arquivo": "66004-2.jpg",
+   "largura": 296,
+   "altura": 180
+  }
+ },
+ {
+  "codigo": "66004-3",
+  "ref": "FA010",
+  "nome": "Máq. vidro Palio 4P traseiro esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 216,
+  "imagem": {
+   "arquivo": "66004-3.jpg",
+   "largura": 286,
+   "altura": 181
+  }
+ },
+ {
+  "codigo": "66027-2",
+  "ref": "CV001",
+  "nome": "Máq. vidro Celta 4P traseiro direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 217,
+  "imagem": {
+   "arquivo": "66027-2.jpg",
+   "largura": 297,
+   "altura": 121
+  }
+ },
+ {
+  "codigo": "66027-3",
+  "ref": "CV001",
+  "nome": "Máq. vidro Celta 4P traseiro esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 218,
+  "imagem": {
+   "arquivo": "66027-3.jpg",
+   "largura": 286,
+   "altura": 121
+  }
+ },
+ {
+  "codigo": "66005-2",
+  "ref": "GM001",
+  "nome": "Máq. vidro Agile direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 219,
+  "imagem": {
+   "arquivo": "66005-2.jpg",
+   "largura": 216,
+   "altura": 194
+  }
+ },
+ {
+  "codigo": "66005-3",
+  "ref": "GM001",
+  "nome": "Máq. vidro Agile esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 220,
+  "imagem": {
+   "arquivo": "66005-3.jpg",
+   "largura": 209,
+   "altura": 194
+  }
+ },
+ {
+  "codigo": "66006-2",
+  "ref": "GM004",
+  "nome": "Máq. vidro Celta 4P direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 221,
+  "imagem": {
+   "arquivo": "66006-2.jpg",
+   "largura": 301,
+   "altura": 172
+  }
+ },
+ {
+  "codigo": "66006-3",
+  "ref": "GM004",
+  "nome": "Máq. vidro Celta 4P esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 222,
+  "imagem": {
+   "arquivo": "66006-3.jpg",
+   "largura": 291,
+   "altura": 172
+  }
+ },
+ {
+  "codigo": "66015-2",
+  "ref": "GM005",
+  "nome": "Máq. vidro Corsa Novo direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 223,
+  "imagem": {
+   "arquivo": "66015-2.jpg",
+   "largura": 291,
+   "altura": 156
+  }
+ },
+ {
+  "codigo": "66015-3",
+  "ref": "GM005",
+  "nome": "Máq. vidro Corsa Novo esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 224,
+  "imagem": {
+   "arquivo": "66015-3.jpg",
+   "largura": 280,
+   "altura": 156
+  }
+ },
+ {
+  "codigo": "66007-2",
+  "ref": "GM006",
+  "nome": "Máq. vidro Corsa Classic direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 225,
+  "imagem": {
+   "arquivo": "66007-2.jpg",
+   "largura": 300,
+   "altura": 174
+  }
+ },
+ {
+  "codigo": "66007-3",
+  "ref": "GM006",
+  "nome": "Máq. vidro Corsa Classic esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 29,
+  "ordem": 226,
+  "imagem": {
+   "arquivo": "66007-3.jpg",
+   "largura": 289,
+   "altura": 174
+  }
+ },
+ {
+  "codigo": "66016-2",
+  "ref": null,
+  "nome": "Máq. vidro Corsa Classic traseiro direito sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 227,
+  "imagem": {
+   "arquivo": "66016-2.jpg",
+   "largura": 400,
+   "altura": 167
+  }
+ },
+ {
+  "codigo": "66016-3",
+  "ref": null,
+  "nome": "Máq. vidro Corsa Classic traseiro esquerdo sem motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 228,
+  "imagem": {
+   "arquivo": "66016-3.jpg",
+   "largura": 400,
+   "altura": 167
+  }
+ },
+ {
+  "codigo": "66018-2",
+  "ref": "CV005",
+  "nome": "Máq. vidro Cobalt 4P direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 229,
+  "imagem": {
+   "arquivo": "66018-2.jpg",
+   "largura": 400,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "66018-3",
+  "ref": "CV005",
+  "nome": "Máq. vidro Cobalt 4P esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 230,
+  "imagem": {
+   "arquivo": "66018-3.jpg",
+   "largura": 400,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "66019-2",
+  "ref": "CV-009",
+  "nome": "Máq. vidro Onix 4P / Prisma 2013 direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 231,
+  "imagem": {
+   "arquivo": "66019-2.jpg",
+   "largura": 400,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "66019-3",
+  "ref": "CV-009",
+  "nome": "Máq. vidro Onix 4P / Prisma 2013 esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 232,
+  "imagem": {
+   "arquivo": "66019-3.jpg",
+   "largura": 400,
+   "altura": 146
+  }
+ },
+ {
+  "codigo": "66020-2",
+  "ref": "HD001",
+  "nome": "Máq. vidro HB20/HB20S 4P direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 233,
+  "imagem": {
+   "arquivo": "66020-2.jpg",
+   "largura": 256,
+   "altura": 198
+  }
+ },
+ {
+  "codigo": "66020-3",
+  "ref": "HD001",
+  "nome": "Máq. vidro HB20/HB20S 4P esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 234,
+  "imagem": {
+   "arquivo": "66020-3.jpg",
+   "largura": 248,
+   "altura": 198
+  }
+ },
+ {
+  "codigo": "66021-2",
+  "ref": "NS002",
+  "nome": "Máq. vidro March/Versa 4P direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 235,
+  "imagem": {
+   "arquivo": "66021-2.jpg",
+   "largura": 305,
+   "altura": 150
+  }
+ },
+ {
+  "codigo": "66021-3",
+  "ref": "NS002",
+  "nome": "Máq. vidro March/Versa 4P esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 236,
+  "imagem": {
+   "arquivo": "66021-3.jpg",
+   "largura": 294,
+   "altura": 150
+  }
+ },
+ {
+  "codigo": "66022-2",
+  "ref": "RN003",
+  "nome": "Máq. vidro Logan 4P 2007-2013 direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 237,
+  "imagem": {
+   "arquivo": "66022-2.jpg",
+   "largura": 400,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "66022-3",
+  "ref": "RN003",
+  "nome": "Máq. vidro Logan 4P 2007-2013 esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 30,
+  "ordem": 238,
+  "imagem": {
+   "arquivo": "66022-3.jpg",
+   "largura": 400,
+   "altura": 161
+  }
+ },
+ {
+  "codigo": "66023-2",
+  "ref": "RN004",
+  "nome": "Máq. vidro Sandero 4P 2008 direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 239,
+  "imagem": {
+   "arquivo": "66023-2.jpg",
+   "largura": 400,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "66023-3",
+  "ref": "RN004",
+  "nome": "Máq. vidro Sandero 4P 2008 esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 240,
+  "imagem": {
+   "arquivo": "66023-3.jpg",
+   "largura": 400,
+   "altura": 156
+  }
+ },
+ {
+  "codigo": "66024-2",
+  "ref": null,
+  "nome": "Máq. vidro Corsa 2P/Pick-up direito s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 241,
+  "imagem": {
+   "arquivo": "66024-2.jpg",
+   "largura": 400,
+   "altura": 245
+  }
+ },
+ {
+  "codigo": "66024-3",
+  "ref": null,
+  "nome": "Máq. vidro Corsa 2P/Pick-up esquerdo s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 242,
+  "imagem": {
+   "arquivo": "66024-3.jpg",
+   "largura": 400,
+   "altura": 245
+  }
+ },
+ {
+  "codigo": "66026-2",
+  "ref": null,
+  "nome": "Máq. vidro Mobi lado direito s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 243,
+  "imagem": {
+   "arquivo": "66026-2.jpg",
+   "largura": 310,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "66026-3",
+  "ref": null,
+  "nome": "Máq. vidro Mobi lado esquerdo s/ motor",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 244,
+  "imagem": {
+   "arquivo": "66026-3.jpg",
+   "largura": 310,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "66028-2",
+  "ref": null,
+  "nome": "Máq. vidro Celta 2P lado direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 245,
+  "imagem": {
+   "arquivo": "66028-2.jpg",
+   "largura": 400,
+   "altura": 206
+  }
+ },
+ {
+  "codigo": "66028-3",
+  "ref": null,
+  "nome": "Máq. vidro Celta 2P lado esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 246,
+  "imagem": {
+   "arquivo": "66028-3.jpg",
+   "largura": 400,
+   "altura": 214
+  }
+ },
+ {
+  "codigo": "66029-2",
+  "ref": null,
+  "nome": "Máq. vidro Gol G5 lado direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 247,
+  "imagem": {
+   "arquivo": "66029-2.jpg",
+   "largura": 367,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "66029-3",
+  "ref": null,
+  "nome": "Máq. vidro Gol G5 lado esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 248,
+  "imagem": {
+   "arquivo": "66029-3.jpg",
+   "largura": 367,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "66030-2",
+  "ref": null,
+  "nome": "Máq. vidro Fox 2P lado direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 249,
+  "imagem": {
+   "arquivo": "66030-2.jpg",
+   "largura": 400,
+   "altura": 263
+  }
+ },
+ {
+  "codigo": "66030-3",
+  "ref": null,
+  "nome": "Máq. vidro Fox 2P lado esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 31,
+  "ordem": 250,
+  "imagem": {
+   "arquivo": "66030-3.jpg",
+   "largura": 400,
+   "altura": 285
+  }
+ },
+ {
+  "codigo": "66031-2",
+  "ref": null,
+  "nome": "Máq. vidro Palio 2012 lado direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 32,
+  "ordem": 251,
+  "imagem": {
+   "arquivo": "66031-2.jpg",
+   "largura": 400,
+   "altura": 192
+  }
+ },
+ {
+  "codigo": "66031-3",
+  "ref": null,
+  "nome": "Máq. vidro Palio 2012 lado esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 32,
+  "ordem": 252,
+  "imagem": {
+   "arquivo": "66031-3.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "66032-2",
+  "ref": null,
+  "nome": "Máq. vidro Agile 4P lado direito",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 32,
+  "ordem": 253,
+  "imagem": {
+   "arquivo": "66032-2.jpg",
+   "largura": 400,
+   "altura": 159
+  }
+ },
+ {
+  "codigo": "66032-3",
+  "ref": null,
+  "nome": "Máq. vidro Agile 4P lado esquerdo",
+  "categoria": "maquinas-de-vidro",
+  "subgrupo": null,
+  "pagina": 32,
+  "ordem": 254,
+  "imagem": {
+   "arquivo": "66032-3.jpg",
+   "largura": 400,
+   "altura": 163
+  }
+ },
+ {
+  "codigo": "65001",
+  "ref": null,
+  "nome": "Conector BNC dupla fêmea",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 255,
+  "imagem": {
+   "arquivo": "65001.jpg",
+   "largura": 143,
+   "altura": 56
+  }
+ },
+ {
+  "codigo": "65002",
+  "ref": null,
+  "nome": "Conector com rosca RG59",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 256,
+  "imagem": {
+   "arquivo": "65002.jpg",
+   "largura": 139,
+   "altura": 101
+  }
+ },
+ {
+  "codigo": "65003",
+  "ref": null,
+  "nome": "Conector com rosca RG6",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 257,
+  "imagem": {
+   "arquivo": "65003.jpg",
+   "largura": 135,
+   "altura": 89
+  }
+ },
+ {
+  "codigo": "65004",
+  "ref": null,
+  "nome": "Emenda F fêmea para antena",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 258,
+  "imagem": {
+   "arquivo": "65004.jpg",
+   "largura": 136,
+   "altura": 85
+  }
+ },
+ {
+  "codigo": "65005",
+  "ref": null,
+  "nome": "Plug P-10 mono metal niquelado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 259,
+  "imagem": {
+   "arquivo": "65005.jpg",
+   "largura": 187,
+   "altura": 39
+  }
+ },
+ {
+  "codigo": "65007",
+  "ref": null,
+  "nome": "Cabo ótico plástico vídeo 3m",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 260,
+  "imagem": {
+   "arquivo": "65007.jpg",
+   "largura": 174,
+   "altura": 96
+  }
+ },
+ {
+  "codigo": "65008",
+  "ref": null,
+  "nome": "Cabo ótico plástico vídeo 5m",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 261,
+  "imagem": {
+   "arquivo": "65008.jpg",
+   "largura": 175,
+   "altura": 96
+  }
+ },
+ {
+  "codigo": "65009",
+  "ref": null,
+  "nome": "Canon plug macho preto",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 262,
+  "imagem": {
+   "arquivo": "65009.jpg",
+   "largura": 144,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "65010",
+  "ref": null,
+  "nome": "Canon plug fêmea preto",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 263,
+  "imagem": {
+   "arquivo": "65010.jpg",
+   "largura": 90,
+   "altura": 93
+  }
+ },
+ {
+  "codigo": "65013",
+  "ref": null,
+  "nome": "Divisor satélite 2 saídas",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 264,
+  "imagem": {
+   "arquivo": "65013.jpg",
+   "largura": 112,
+   "altura": 96
+  }
+ },
+ {
+  "codigo": "65014",
+  "ref": null,
+  "nome": "Plug RCA dourado 5~6mm",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 265,
+  "imagem": {
+   "arquivo": "65014.jpg",
+   "largura": 101,
+   "altura": 101
+  }
+ },
+ {
+  "codigo": "65034",
+  "ref": null,
+  "nome": "Cabo HDMI 2mts 4K2K",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 34,
+  "ordem": 266,
+  "imagem": {
+   "arquivo": "65034.jpg",
+   "largura": 117,
+   "altura": 108
+  }
+ },
+ {
+  "codigo": "65035",
+  "ref": null,
+  "nome": "Cabo HDMI 1,80mts 4K2K",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 267,
+  "imagem": {
+   "arquivo": "65035.jpg",
+   "largura": 120,
+   "altura": 113
+  }
+ },
+ {
+  "codigo": "65036",
+  "ref": null,
+  "nome": "Cabo HDMI 30mts preto 1.4",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 268,
+  "imagem": {
+   "arquivo": "65036.jpg",
+   "largura": 98,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "65037",
+  "ref": null,
+  "nome": "Cabo HDMI 10mts preto 1.4",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 269,
+  "imagem": {
+   "arquivo": "65037.jpg",
+   "largura": 162,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "65038",
+  "ref": null,
+  "nome": "Cabo HDMI 15mts 2.0 4K2K",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 270,
+  "imagem": {
+   "arquivo": "65038.jpg",
+   "largura": 157,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "65039",
+  "ref": null,
+  "nome": "Cabo HDMI 3mts preto 1.4",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 271,
+  "imagem": {
+   "arquivo": "65039.jpg",
+   "largura": 119,
+   "altura": 102
+  }
+ },
+ {
+  "codigo": "65040",
+  "ref": null,
+  "nome": "Cabo HDMI 5mts 2.0 4K2K",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 272,
+  "imagem": {
+   "arquivo": "65040.jpg",
+   "largura": 119,
+   "altura": 102
+  }
+ },
+ {
+  "codigo": "65041",
+  "ref": null,
+  "nome": "Cabo HDMI 20mts preto 1.4",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 273,
+  "imagem": {
+   "arquivo": "65041.jpg",
+   "largura": 99,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "65076",
+  "ref": null,
+  "nome": "Divisor HDMI 1x2 Splitter 1080P",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 274,
+  "imagem": {
+   "arquivo": "65076.jpg",
+   "largura": 115,
+   "altura": 81
+  }
+ },
+ {
+  "codigo": "65077",
+  "ref": null,
+  "nome": "Divisor HDMI 1x4 Splitter 1080P",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 275,
+  "imagem": {
+   "arquivo": "65077.jpg",
+   "largura": 138,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "65078",
+  "ref": null,
+  "nome": "Divisor HDMI 1x2 Splitter 3D",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 276,
+  "imagem": {
+   "arquivo": "65078.jpg",
+   "largura": 137,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "65079",
+  "ref": null,
+  "nome": "Divisor HDMI 1x4 Splitter 3D",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 277,
+  "imagem": {
+   "arquivo": "65079.jpg",
+   "largura": 153,
+   "altura": 101
+  }
+ },
+ {
+  "codigo": "61037",
+  "ref": null,
+  "nome": "Cabo Y 2M + 1F preto",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 35,
+  "ordem": 278,
+  "imagem": {
+   "arquivo": "61037.jpg",
+   "largura": 363,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "61038",
+  "ref": null,
+  "nome": "Cabo Y 20cm 2M+1F cristal",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 279,
+  "imagem": {
+   "arquivo": "61038.jpg",
+   "largura": 230,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "65006",
+  "ref": null,
+  "nome": "Fio telefone 1,8m preto c/ plug",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 280,
+  "imagem": {
+   "arquivo": "65006.jpg",
+   "largura": 143,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "65011",
+  "ref": null,
+  "nome": "Canon macho c/ seguro",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 281,
+  "imagem": {
+   "arquivo": "65011.jpg",
+   "largura": 120,
+   "altura": 110
+  }
+ },
+ {
+  "codigo": "65012",
+  "ref": null,
+  "nome": "F três (tipo T)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 282,
+  "imagem": {
+   "arquivo": "65012.jpg",
+   "largura": 218,
+   "altura": 218
+  }
+ },
+ {
+  "codigo": "65015",
+  "ref": null,
+  "nome": "Capa preta p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 283,
+  "imagem": {
+   "arquivo": "65015.jpg",
+   "largura": 97,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "65016",
+  "ref": null,
+  "nome": "Capa vermelha p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 284,
+  "imagem": {
+   "arquivo": "65016.jpg",
+   "largura": 106,
+   "altura": 106
+  }
+ },
+ {
+  "codigo": "65017",
+  "ref": null,
+  "nome": "Capa cinza p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 285,
+  "imagem": {
+   "arquivo": "65017.jpg",
+   "largura": 119,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "65018",
+  "ref": null,
+  "nome": "Capa branco gelo p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 286,
+  "imagem": {
+   "arquivo": "65018.jpg",
+   "largura": 102,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "65019",
+  "ref": null,
+  "nome": "Conector M azul",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 287,
+  "imagem": {
+   "arquivo": "65019.jpg",
+   "largura": 137,
+   "altura": 70
+  }
+ },
+ {
+  "codigo": "65020",
+  "ref": null,
+  "nome": "Canon p/ painel macho",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 288,
+  "imagem": {
+   "arquivo": "65020.jpg",
+   "largura": 94,
+   "altura": 96
+  }
+ },
+ {
+  "codigo": "65021",
+  "ref": null,
+  "nome": "Canon p/ painel fêmea",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 289,
+  "imagem": {
+   "arquivo": "65021.jpg",
+   "largura": 102,
+   "altura": 100
+  }
+ },
+ {
+  "codigo": "65022",
+  "ref": null,
+  "nome": "BNC F p/ painel",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 36,
+  "ordem": 290,
+  "imagem": {
+   "arquivo": "65022.jpg",
+   "largura": 114,
+   "altura": 84
+  }
+ },
+ {
+  "codigo": "65023",
+  "ref": null,
+  "nome": "BNC F p/ RCA M",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 291,
+  "imagem": {
+   "arquivo": "65023.jpg",
+   "largura": 123,
+   "altura": 44
+  }
+ },
+ {
+  "codigo": "65024",
+  "ref": null,
+  "nome": "Cabo RCA + P-2 estéreo gold",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 292,
+  "imagem": {
+   "arquivo": "65024.jpg",
+   "largura": 124,
+   "altura": 82
+  }
+ },
+ {
+  "codigo": "65025",
+  "ref": null,
+  "nome": "RCA 5m 4mm preto emborrachado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 293,
+  "imagem": {
+   "arquivo": "65025.jpg",
+   "largura": 124,
+   "altura": 107
+  }
+ },
+ {
+  "codigo": "65026",
+  "ref": null,
+  "nome": "Garra pequena jacaré",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 294,
+  "imagem": {
+   "arquivo": "65026.jpg",
+   "largura": 119,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "65027",
+  "ref": null,
+  "nome": "Garra média jacaré",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 295,
+  "imagem": {
+   "arquivo": "65027.jpg",
+   "largura": 119,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "65028",
+  "ref": null,
+  "nome": "Garra grande jacaré",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 296,
+  "imagem": {
+   "arquivo": "65028.jpg",
+   "largura": 119,
+   "altura": 96
+  }
+ },
+ {
+  "codigo": "65029",
+  "ref": null,
+  "nome": "Cabo RCA 2+2 preto 1,5mt",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 297,
+  "imagem": {
+   "arquivo": "65029.jpg",
+   "largura": 104,
+   "altura": 113
+  }
+ },
+ {
+  "codigo": "65030",
+  "ref": null,
+  "nome": "Cabo RCA 5mts cristal emborrachado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 298,
+  "imagem": {
+   "arquivo": "65030.jpg",
+   "largura": 136,
+   "altura": 104
+  }
+ },
+ {
+  "codigo": "65031",
+  "ref": null,
+  "nome": "Plug RJ45 flex dourado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 299,
+  "imagem": {
+   "arquivo": "65031.jpg",
+   "largura": 98,
+   "altura": 84
+  }
+ },
+ {
+  "codigo": "65032",
+  "ref": null,
+  "nome": "Fio telefone 1,8m branco c/ plug",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 300,
+  "imagem": {
+   "arquivo": "65032.jpg",
+   "largura": 130,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "65033",
+  "ref": null,
+  "nome": "Capa azul p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 301,
+  "imagem": {
+   "arquivo": "65033.jpg",
+   "largura": 128,
+   "altura": 85
+  }
+ },
+ {
+  "codigo": "65042",
+  "ref": null,
+  "nome": "Cabo monitor 3mts bege",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 37,
+  "ordem": 302,
+  "imagem": {
+   "arquivo": "65042.jpg",
+   "largura": 157,
+   "altura": 87
+  }
+ },
+ {
+  "codigo": "65043",
+  "ref": null,
+  "nome": "RCA 3mts preto",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 303,
+  "imagem": {
+   "arquivo": "65043.jpg",
+   "largura": 133,
+   "altura": 100
+  }
+ },
+ {
+  "codigo": "65044",
+  "ref": null,
+  "nome": "Cabo Y 2F + 1M azul",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 304,
+  "imagem": {
+   "arquivo": "65044.jpg",
+   "largura": 186,
+   "altura": 32
+  }
+ },
+ {
+  "codigo": "65045",
+  "ref": null,
+  "nome": "Divisor 2 saídas (1GHz)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 305,
+  "imagem": {
+   "arquivo": "65045.jpg",
+   "largura": 89,
+   "altura": 94
+  }
+ },
+ {
+  "codigo": "65046",
+  "ref": null,
+  "nome": "Divisor 3 saídas (1GHz)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 306,
+  "imagem": {
+   "arquivo": "65046.jpg",
+   "largura": 107,
+   "altura": 85
+  }
+ },
+ {
+  "codigo": "65047",
+  "ref": null,
+  "nome": "Divisor satélite 3 saídas",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 307,
+  "imagem": {
+   "arquivo": "65047.jpg",
+   "largura": 154,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "65048",
+  "ref": null,
+  "nome": "Divisor F c/ 4 saídas",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 308,
+  "imagem": {
+   "arquivo": "65048.jpg",
+   "largura": 131,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "65049",
+  "ref": null,
+  "nome": "Divisor 4 saídas 1GHz",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 309,
+  "imagem": {
+   "arquivo": "65049.jpg",
+   "largura": 137,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "65050",
+  "ref": null,
+  "nome": "Plug RCA 4mm",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 310,
+  "imagem": {
+   "arquivo": "65050.jpg",
+   "largura": 136,
+   "altura": 79
+  }
+ },
+ {
+  "codigo": "65051",
+  "ref": null,
+  "nome": "Plug RCA 6mm",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 311,
+  "imagem": {
+   "arquivo": "65051.jpg",
+   "largura": 136,
+   "altura": 79
+  }
+ },
+ {
+  "codigo": "65052",
+  "ref": null,
+  "nome": "Cabo P2+P2 estéreo 2mts",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 312,
+  "imagem": {
+   "arquivo": "65052.jpg",
+   "largura": 159,
+   "altura": 95
+  }
+ },
+ {
+  "codigo": "65053",
+  "ref": null,
+  "nome": "Garra de jacaré",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 313,
+  "imagem": {
+   "arquivo": "65053.jpg",
+   "largura": 105,
+   "altura": 83
+  }
+ },
+ {
+  "codigo": "65054",
+  "ref": null,
+  "nome": "Plug P-4 injetado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 38,
+  "ordem": 314,
+  "imagem": {
+   "arquivo": "65054.jpg",
+   "largura": 134,
+   "altura": 54
+  }
+ },
+ {
+  "codigo": "65055",
+  "ref": null,
+  "nome": "Plug P-4 Furk 5,5x2,1mm",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 315,
+  "imagem": {
+   "arquivo": "65055.jpg",
+   "largura": 112,
+   "altura": 82
+  }
+ },
+ {
+  "codigo": "65056",
+  "ref": null,
+  "nome": "Plug P-10 mono p/ conector canon",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 316,
+  "imagem": {
+   "arquivo": "65056.jpg",
+   "largura": 139,
+   "altura": 38
+  }
+ },
+ {
+  "codigo": "65057",
+  "ref": null,
+  "nome": "Canon fêmea amarelo (tipo Neutrik)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 317,
+  "imagem": {
+   "arquivo": "65057.jpg",
+   "largura": 108,
+   "altura": 74
+  }
+ },
+ {
+  "codigo": "65058",
+  "ref": null,
+  "nome": "Canon fêmea azul (tipo Neutrik)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 318,
+  "imagem": {
+   "arquivo": "65058.jpg",
+   "largura": 105,
+   "altura": 54
+  }
+ },
+ {
+  "codigo": "65059",
+  "ref": null,
+  "nome": "Canon fêmea verde (tipo Neutrik)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 319,
+  "imagem": {
+   "arquivo": "65059.jpg",
+   "largura": 106,
+   "altura": 61
+  }
+ },
+ {
+  "codigo": "65060",
+  "ref": null,
+  "nome": "Canon macho amarelo (tipo Neutrik)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 320,
+  "imagem": {
+   "arquivo": "65060.jpg",
+   "largura": 96,
+   "altura": 64
+  }
+ },
+ {
+  "codigo": "65061",
+  "ref": null,
+  "nome": "Canon macho verde (tipo Neutrik)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 321,
+  "imagem": {
+   "arquivo": "65061.jpg",
+   "largura": 400,
+   "altura": 269
+  }
+ },
+ {
+  "codigo": "65062",
+  "ref": null,
+  "nome": "Canon macho vermelho (tipo Neutrik)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 322,
+  "imagem": {
+   "arquivo": "65062.jpg",
+   "largura": 108,
+   "altura": 64
+  }
+ },
+ {
+  "codigo": "65063",
+  "ref": null,
+  "nome": "Canon fêmea c/ 3 pinos niquelado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 323,
+  "imagem": {
+   "arquivo": "65063.jpg",
+   "largura": 139,
+   "altura": 39
+  }
+ },
+ {
+  "codigo": "65064",
+  "ref": null,
+  "nome": "Canon macho c/ 3 pinos niquelado",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 324,
+  "imagem": {
+   "arquivo": "65064.jpg",
+   "largura": 141,
+   "altura": 43
+  }
+ },
+ {
+  "codigo": "65065",
+  "ref": null,
+  "nome": "DB25 macho / DB25 fêmea",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 325,
+  "imagem": {
+   "arquivo": "65065.jpg",
+   "largura": 139,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "65066",
+  "ref": null,
+  "nome": "Capa amarelo p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 39,
+  "ordem": 326,
+  "imagem": {
+   "arquivo": "65066.jpg",
+   "largura": 400,
+   "altura": 279
+  }
+ },
+ {
+  "codigo": "65067",
+  "ref": null,
+  "nome": "Capa bege p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 327,
+  "imagem": {
+   "arquivo": "65067.jpg",
+   "largura": 98,
+   "altura": 63
+  }
+ },
+ {
+  "codigo": "65068",
+  "ref": null,
+  "nome": "Capa laranja p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 328,
+  "imagem": {
+   "arquivo": "65068.jpg",
+   "largura": 98,
+   "altura": 65
+  }
+ },
+ {
+  "codigo": "65069",
+  "ref": null,
+  "nome": "Capa verde p/ conector Rj45",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 329,
+  "imagem": {
+   "arquivo": "65069.jpg",
+   "largura": 400,
+   "altura": 282
+  }
+ },
+ {
+  "codigo": "65070",
+  "ref": "DS1033-15F",
+  "nome": "DB15F DS1033-15F",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 330,
+  "imagem": {
+   "arquivo": "65070.jpg",
+   "largura": 138,
+   "altura": 90
+  }
+ },
+ {
+  "codigo": "65071",
+  "ref": "DS1033-15M",
+  "nome": "DB15M DS1033-15M",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 331,
+  "imagem": {
+   "arquivo": "65071.jpg",
+   "largura": 138,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "65072",
+  "ref": "DS1033-25F",
+  "nome": "DB25 fêmea DS1033-25F",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 332,
+  "imagem": {
+   "arquivo": "65072.jpg",
+   "largura": 142,
+   "altura": 83
+  }
+ },
+ {
+  "codigo": "65073",
+  "ref": "DS1033-25M",
+  "nome": "DB25 macho DS1033-25M",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 333,
+  "imagem": {
+   "arquivo": "65073.jpg",
+   "largura": 138,
+   "altura": 85
+  }
+ },
+ {
+  "codigo": "65074",
+  "ref": null,
+  "nome": "Conector HDD15 macho (VGA)",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 334,
+  "imagem": {
+   "arquivo": "65074.jpg",
+   "largura": 107,
+   "altura": 85
+  }
+ },
+ {
+  "codigo": "65075",
+  "ref": "DS1035-15F",
+  "nome": "Conector HDDB15 fêmea DS1035-15F",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 335,
+  "imagem": {
+   "arquivo": "65075.jpg",
+   "largura": 107,
+   "altura": 81
+  }
+ },
+ {
+  "codigo": "65080",
+  "ref": null,
+  "nome": "Tampa de metal DB9 pinos",
+  "categoria": "conectores-cabos",
+  "subgrupo": null,
+  "pagina": 40,
+  "ordem": 336,
+  "imagem": {
+   "arquivo": "65080.jpg",
+   "largura": 264,
+   "altura": 199
+  }
+ },
+ {
+  "codigo": "67001",
+  "ref": null,
+  "nome": "Alicate corta e decapa cabo",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 337,
+  "imagem": {
+   "arquivo": "67001.jpg",
+   "largura": 140,
+   "altura": 78
+  }
+ },
+ {
+  "codigo": "67002",
+  "ref": null,
+  "nome": "Alicate decapar e crimpar 6mm",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 338,
+  "imagem": {
+   "arquivo": "67002.jpg",
+   "largura": 103,
+   "altura": 91
+  }
+ },
+ {
+  "codigo": "67003",
+  "ref": null,
+  "nome": "Alicate de cortar AWG 30-20",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 339,
+  "imagem": {
+   "arquivo": "67003.jpg",
+   "largura": 102,
+   "altura": 78
+  }
+ },
+ {
+  "codigo": "67005",
+  "ref": null,
+  "nome": "Alicate de pressão 5\"",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 340,
+  "imagem": {
+   "arquivo": "67005.jpg",
+   "largura": 160,
+   "altura": 52
+  }
+ },
+ {
+  "codigo": "67006",
+  "ref": null,
+  "nome": "Alicate de pressão 7\"",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 341,
+  "imagem": {
+   "arquivo": "67006.jpg",
+   "largura": 160,
+   "altura": 52
+  }
+ },
+ {
+  "codigo": "67007",
+  "ref": null,
+  "nome": "Alicate de pressão 10\"",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 342,
+  "imagem": {
+   "arquivo": "67007.jpg",
+   "largura": 160,
+   "altura": 52
+  }
+ },
+ {
+  "codigo": "67008",
+  "ref": null,
+  "nome": "Alicate decapador cabo coaxial CATV",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 343,
+  "imagem": {
+   "arquivo": "67008.jpg",
+   "largura": 89,
+   "altura": 89
+  }
+ },
+ {
+  "codigo": "67009",
+  "ref": null,
+  "nome": "Alicate crimpar conector RG59 e RG6",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 344,
+  "imagem": {
+   "arquivo": "67009.jpg",
+   "largura": 376,
+   "altura": 181
+  }
+ },
+ {
+  "codigo": "67010",
+  "ref": "HY568R",
+  "nome": "Alicate crimpar RJ11/RJ12/RJ45 c/ catraca",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 345,
+  "imagem": {
+   "arquivo": "67010.jpg",
+   "largura": 140,
+   "altura": 56
+  }
+ },
+ {
+  "codigo": "67011",
+  "ref": "HY314B",
+  "nome": "Punch down tipo 110/88 laranja",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 346,
+  "imagem": {
+   "arquivo": "67011.jpg",
+   "largura": 156,
+   "altura": 35
+  }
+ },
+ {
+  "codigo": "67012",
+  "ref": "0109A",
+  "nome": "Conjunto de ferramenta 0109A",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 347,
+  "imagem": {
+   "arquivo": "67012.jpg",
+   "largura": 117,
+   "altura": 88
+  }
+ },
+ {
+  "codigo": "67013",
+  "ref": "0109B",
+  "nome": "Conjunto de ferramenta 0109B",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 42,
+  "ordem": 348,
+  "imagem": {
+   "arquivo": "67013.jpg",
+   "largura": 93,
+   "altura": 94
+  }
+ },
+ {
+  "codigo": "67014",
+  "ref": "HT-T51A",
+  "nome": "Alicate crimpar terminal de cabo",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 349,
+  "imagem": {
+   "arquivo": "67014.jpg",
+   "largura": 86,
+   "altura": 94
+  }
+ },
+ {
+  "codigo": "67017",
+  "ref": "HY-150B",
+  "nome": "Decapador de fio c/ regulagem",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 350,
+  "imagem": {
+   "arquivo": "67017.jpg",
+   "largura": 120,
+   "altura": 69
+  }
+ },
+ {
+  "codigo": "67029",
+  "ref": "HY362",
+  "nome": "Suporte ferro de solda",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 351,
+  "imagem": {
+   "arquivo": "67029.jpg",
+   "largura": 91,
+   "altura": 91
+  }
+ },
+ {
+  "codigo": "67035",
+  "ref": null,
+  "nome": "Trena com 5mts",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 352,
+  "imagem": {
+   "arquivo": "67035.jpg",
+   "largura": 117,
+   "altura": 71
+  }
+ },
+ {
+  "codigo": "67033",
+  "ref": "HY-5800",
+  "nome": "Jogo chave de fenda HY-5800",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 353,
+  "imagem": {
+   "arquivo": "67033.jpg",
+   "largura": 134,
+   "altura": 97
+  }
+ },
+ {
+  "codigo": "67034",
+  "ref": "HY-6900",
+  "nome": "Jogo chave de fenda HY-6900",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 354,
+  "imagem": {
+   "arquivo": "67034.jpg",
+   "largura": 139,
+   "altura": 87
+  }
+ },
+ {
+  "codigo": "67004",
+  "ref": null,
+  "nome": "Alicate corta e decapa cabo 501",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 355,
+  "imagem": {
+   "arquivo": "67004.jpg",
+   "largura": 124,
+   "altura": 66
+  }
+ },
+ {
+  "codigo": "67015",
+  "ref": "HT336C1",
+  "nome": "Alicate p/ crimpar HT336C1",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 356,
+  "imagem": {
+   "arquivo": "67015.jpg",
+   "largura": 98,
+   "altura": 76
+  }
+ },
+ {
+  "codigo": "67016",
+  "ref": "HT510B",
+  "nome": "Alicate de pressão p/ cone HT510B",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 357,
+  "imagem": {
+   "arquivo": "67016.jpg",
+   "largura": 148,
+   "altura": 75
+  }
+ },
+ {
+  "codigo": "67018",
+  "ref": "HY-302",
+  "nome": "Alicate p/ decapar cabo HY-302",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 358,
+  "imagem": {
+   "arquivo": "67018.jpg",
+   "largura": 97,
+   "altura": 88
+  }
+ },
+ {
+  "codigo": "67019",
+  "ref": "HY-314KR",
+  "nome": "Alicate punchdown Krone HY-314KR",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 359,
+  "imagem": {
+   "arquivo": "67019.jpg",
+   "largura": 135,
+   "altura": 51
+  }
+ },
+ {
+  "codigo": "67020",
+  "ref": "HY16L",
+  "nome": "Alicate p/ crimpar terminal isolado HY16L",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 43,
+  "ordem": 360,
+  "imagem": {
+   "arquivo": "67020.jpg",
+   "largura": 132,
+   "altura": 79
+  }
+ },
+ {
+  "codigo": "67021",
+  "ref": "HY2096",
+  "nome": "Alicate p/ crimpar plug RJ12 HY2096",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 361,
+  "imagem": {
+   "arquivo": "67021.jpg",
+   "largura": 123,
+   "altura": 59
+  }
+ },
+ {
+  "codigo": "67022",
+  "ref": "HY230C",
+  "nome": "Alicate p/ crimpar terminal HY230C",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 362,
+  "imagem": {
+   "arquivo": "67022.jpg",
+   "largura": 171,
+   "altura": 59
+  }
+ },
+ {
+  "codigo": "67023",
+  "ref": "HY301",
+  "nome": "Alicate p/ terminal AWG HY301",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 363,
+  "imagem": {
+   "arquivo": "67023.jpg",
+   "largura": 114,
+   "altura": 89
+  }
+ },
+ {
+  "codigo": "67024",
+  "ref": "HY314KRB",
+  "nome": "Punchdown Krone preto HY314KRB",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 364,
+  "imagem": {
+   "arquivo": "67024.jpg",
+   "largura": 167,
+   "altura": 57
+  }
+ },
+ {
+  "codigo": "67025",
+  "ref": "HY324B",
+  "nome": "Punchdown tipo 110/88 HY324B",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 365,
+  "imagem": {
+   "arquivo": "67025.jpg",
+   "largura": 93,
+   "altura": 92
+  }
+ },
+ {
+  "codigo": "67026",
+  "ref": "HY325",
+  "nome": "Alicate crimpar AWG HY325",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 366,
+  "imagem": {
+   "arquivo": "67026.jpg",
+   "largura": 186,
+   "altura": 54
+  }
+ },
+ {
+  "codigo": "67027",
+  "ref": "HY332",
+  "nome": "Alicate decapar cabo coaxial HY332",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 367,
+  "imagem": {
+   "arquivo": "67027.jpg",
+   "largura": 130,
+   "altura": 48
+  }
+ },
+ {
+  "codigo": "67028",
+  "ref": "HY336H",
+  "nome": "Alicate p/ crimpar terminal isolado HY336H",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 368,
+  "imagem": {
+   "arquivo": "67028.jpg",
+   "largura": 112,
+   "altura": 85
+  }
+ },
+ {
+  "codigo": "67030",
+  "ref": "HY546R",
+  "nome": "Alicate p/ crimpar RJ11 HY546R",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 369,
+  "imagem": {
+   "arquivo": "67030.jpg",
+   "largura": 141,
+   "altura": 78
+  }
+ },
+ {
+  "codigo": "67031",
+  "ref": "HY5684R",
+  "nome": "Alicate p/ crimpar 4x2/4x4 HY5684R",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 370,
+  "imagem": {
+   "arquivo": "67031.jpg",
+   "largura": 136,
+   "altura": 57
+  }
+ },
+ {
+  "codigo": "67032",
+  "ref": null,
+  "nome": "Jogo alicate corte bico 4,5\"",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 371,
+  "imagem": {
+   "arquivo": "67032.jpg",
+   "largura": 136,
+   "altura": 77
+  }
+ },
+ {
+  "codigo": "67036",
+  "ref": "YS03B-1B",
+  "nome": "Alicate p/ crimpar 0,75-4,0mm YS03B-1B",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 44,
+  "ordem": 372,
+  "imagem": {
+   "arquivo": "67036.jpg",
+   "largura": 400,
+   "altura": 193
+  }
+ },
+ {
+  "codigo": "67037",
+  "ref": null,
+  "nome": "Alicate p/ crimpar 336E2",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 45,
+  "ordem": 373,
+  "imagem": {
+   "arquivo": "67037.jpg",
+   "largura": 306,
+   "altura": 98
+  }
+ },
+ {
+  "codigo": "67038",
+  "ref": null,
+  "nome": "Alicate p/ crimpar terminal não isolado",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 45,
+  "ordem": 374,
+  "imagem": {
+   "arquivo": "67038.jpg",
+   "largura": 186,
+   "altura": 139
+  }
+ },
+ {
+  "codigo": "67039",
+  "ref": null,
+  "nome": "Alicate p/ crimpar HY336G",
+  "categoria": "ferramentas",
+  "subgrupo": null,
+  "pagina": 45,
+  "ordem": 375,
+  "imagem": {
+   "arquivo": "67039.jpg",
+   "largura": 308,
+   "altura": 99
+  }
+ },
+ {
+  "codigo": "61080",
+  "ref": null,
+  "nome": "Estribo elétrico 2018+ Sprinter Van",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 376,
+  "imagem": {
+   "arquivo": "61080.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61081",
+  "ref": null,
+  "nome": "Estribo elétrico 2018+ VW Amarok",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 377,
+  "imagem": {
+   "arquivo": "61081.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61082",
+  "ref": null,
+  "nome": "Estribo elétrico 2019+ Nissan Frontier",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 378,
+  "imagem": {
+   "arquivo": "61082.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61083",
+  "ref": null,
+  "nome": "Estribo elétrico 2020+ Toyota Hilux",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 379,
+  "imagem": {
+   "arquivo": "61083.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61084",
+  "ref": null,
+  "nome": "Estribo elétrico 2023+ Ford Ranger",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 380,
+  "imagem": {
+   "arquivo": "61084.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61085",
+  "ref": null,
+  "nome": "Estribo elétrico 2023+ Chevrolet S10",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 381,
+  "imagem": {
+   "arquivo": "61085.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61086",
+  "ref": null,
+  "nome": "Estribo elétrico 2023+ Mitsubishi L200",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 382,
+  "imagem": {
+   "arquivo": "61086.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61087",
+  "ref": null,
+  "nome": "Estribo elétrico 21-25 Ford Transit Pro",
+  "categoria": "estribos",
+  "subgrupo": null,
+  "pagina": 47,
+  "ordem": 383,
+  "imagem": {
+   "arquivo": "61087.jpg",
+   "largura": 400,
+   "altura": 266
+  }
+ },
+ {
+  "codigo": "61001",
+  "ref": null,
+  "nome": "Motor 2 fios",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 384,
+  "imagem": {
+   "arquivo": "61001.jpg",
+   "largura": 246,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61002",
+  "ref": null,
+  "nome": "Motor 5 fios",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 385,
+  "imagem": {
+   "arquivo": "61002.jpg",
+   "largura": 255,
+   "altura": 240
+  }
+ },
+ {
+  "codigo": "61004",
+  "ref": null,
+  "nome": "Câmera tartaruga",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 386,
+  "imagem": {
+   "arquivo": "61004.jpg",
+   "largura": 279,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61005",
+  "ref": null,
+  "nome": "Câmera universal",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 387,
+  "imagem": {
+   "arquivo": "61005.jpg",
+   "largura": 258,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61006",
+  "ref": null,
+  "nome": "Centralina",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 388,
+  "imagem": {
+   "arquivo": "61006.jpg",
+   "largura": 252,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61008",
+  "ref": null,
+  "nome": "Kit sensor de ré 12V preto",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 389,
+  "imagem": {
+   "arquivo": "61008.jpg",
+   "largura": 268,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61008-1",
+  "ref": null,
+  "nome": "Kit sensor de ré 12V prata",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 390,
+  "imagem": {
+   "arquivo": "61008-1.jpg",
+   "largura": 400,
+   "altura": 350
+  }
+ },
+ {
+  "codigo": "61008-2",
+  "ref": null,
+  "nome": "Kit sensor de ré 12V branco",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 391,
+  "imagem": {
+   "arquivo": "61008-2.jpg",
+   "largura": 400,
+   "altura": 334
+  }
+ },
+ {
+  "codigo": "61020",
+  "ref": null,
+  "nome": "Motor 8 dentes esquerdo 12V",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 392,
+  "imagem": {
+   "arquivo": "61020.jpg",
+   "largura": 350,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "610203",
+  "ref": null,
+  "nome": "Porta fusível tipo cartucho",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 393,
+  "imagem": {
+   "arquivo": "610203.jpg",
+   "largura": 225,
+   "altura": 225
+  }
+ },
+ {
+  "codigo": "610204",
+  "ref": null,
+  "nome": "Sirene 12V 1 tom",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 394,
+  "imagem": {
+   "arquivo": "610204.jpg",
+   "largura": 225,
+   "altura": 224
+  }
+ },
+ {
+  "codigo": "610205",
+  "ref": null,
+  "nome": "Porta fusível 3x2",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 49,
+  "ordem": 395,
+  "imagem": {
+   "arquivo": "610205.jpg",
+   "largura": 400,
+   "altura": 209
+  }
+ },
+ {
+  "codigo": "610206",
+  "ref": null,
+  "nome": "Retrovisor c/ câmera",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 396,
+  "imagem": {
+   "arquivo": "610206.jpg",
+   "largura": 362,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "610207",
+  "ref": null,
+  "nome": "Mini câmera E36 DVR automotiva",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 397,
+  "imagem": {
+   "arquivo": "610207.jpg",
+   "largura": 400,
+   "altura": 279
+  }
+ },
+ {
+  "codigo": "610208",
+  "ref": null,
+  "nome": "Mini câmera E12C DVR automotiva",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 398,
+  "imagem": {
+   "arquivo": "610208.jpg",
+   "largura": 396,
+   "altura": 240
+  }
+ },
+ {
+  "codigo": "61021",
+  "ref": null,
+  "nome": "Motor 8 dentes direito 12V",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 399,
+  "imagem": {
+   "arquivo": "61021.jpg",
+   "largura": 328,
+   "altura": 332
+  }
+ },
+ {
+  "codigo": "610211",
+  "ref": null,
+  "nome": "Mini câmera 588-1A nova FullHD",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 400,
+  "imagem": {
+   "arquivo": "610211.jpg",
+   "largura": 260,
+   "altura": 194
+  }
+ },
+ {
+  "codigo": "61030",
+  "ref": null,
+  "nome": "Motor fechadura Gol",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 401,
+  "imagem": {
+   "arquivo": "61030.jpg",
+   "largura": 288,
+   "altura": 164
+  }
+ },
+ {
+  "codigo": "61031",
+  "ref": null,
+  "nome": "Motor fechadura Palio",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 402,
+  "imagem": {
+   "arquivo": "61031.jpg",
+   "largura": 280,
+   "altura": 182
+  }
+ },
+ {
+  "codigo": "61032",
+  "ref": null,
+  "nome": "Motor fechadura mala novo",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 403,
+  "imagem": {
+   "arquivo": "61032.jpg",
+   "largura": 306,
+   "altura": 190
+  }
+ },
+ {
+  "codigo": "61033",
+  "ref": null,
+  "nome": "Motor fechadura mala solda",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 404,
+  "imagem": {
+   "arquivo": "61033.jpg",
+   "largura": 292,
+   "altura": 202
+  }
+ },
+ {
+  "codigo": "61034",
+  "ref": null,
+  "nome": "Retrovisor",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 405,
+  "imagem": {
+   "arquivo": "61034.jpg",
+   "largura": 396,
+   "altura": 236
+  }
+ },
+ {
+  "codigo": "61035",
+  "ref": null,
+  "nome": "Motor 8 dentes direito 24V",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 406,
+  "imagem": {
+   "arquivo": "61035.jpg",
+   "largura": 269,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61036",
+  "ref": null,
+  "nome": "Motor 8 dentes esquerdo 24V",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 50,
+  "ordem": 407,
+  "imagem": {
+   "arquivo": "61036.jpg",
+   "largura": 400,
+   "altura": 368
+  }
+ },
+ {
+  "codigo": "61045",
+  "ref": null,
+  "nome": "Disjuntor 70A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 408,
+  "imagem": {
+   "arquivo": "61045.jpg",
+   "largura": 297,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61046",
+  "ref": null,
+  "nome": "Disjuntor 100A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 409,
+  "imagem": {
+   "arquivo": "61046.jpg",
+   "largura": 214,
+   "altura": 172
+  }
+ },
+ {
+  "codigo": "61047",
+  "ref": null,
+  "nome": "Disjuntor 140A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 410,
+  "imagem": {
+   "arquivo": "61047.jpg",
+   "largura": 232,
+   "altura": 213
+  }
+ },
+ {
+  "codigo": "61048",
+  "ref": null,
+  "nome": "Disjuntor 200A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 411,
+  "imagem": {
+   "arquivo": "61048.jpg",
+   "largura": 290,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "61053",
+  "ref": null,
+  "nome": "Sirene 6 tons",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 412,
+  "imagem": {
+   "arquivo": "61053.jpg",
+   "largura": 299,
+   "altura": 180
+  }
+ },
+ {
+  "codigo": "61062",
+  "ref": null,
+  "nome": "Palheta 13\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 413,
+  "imagem": {
+   "arquivo": "61062.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61063",
+  "ref": null,
+  "nome": "Palheta 14\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 414,
+  "imagem": {
+   "arquivo": "61063.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61064",
+  "ref": null,
+  "nome": "Palheta 15\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 415,
+  "imagem": {
+   "arquivo": "61064.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61065",
+  "ref": null,
+  "nome": "Palheta 16\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 416,
+  "imagem": {
+   "arquivo": "61065.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61066",
+  "ref": null,
+  "nome": "Palheta 17\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 417,
+  "imagem": {
+   "arquivo": "61066.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61067",
+  "ref": null,
+  "nome": "Palheta 18\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 418,
+  "imagem": {
+   "arquivo": "61067.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61068",
+  "ref": null,
+  "nome": "Palheta 19\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 51,
+  "ordem": 419,
+  "imagem": {
+   "arquivo": "61068.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61069",
+  "ref": null,
+  "nome": "Palheta 20\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 420,
+  "imagem": {
+   "arquivo": "61069.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61070",
+  "ref": null,
+  "nome": "Palheta 21\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 421,
+  "imagem": {
+   "arquivo": "61070.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61071",
+  "ref": null,
+  "nome": "Palheta 22\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 422,
+  "imagem": {
+   "arquivo": "61071.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61072",
+  "ref": null,
+  "nome": "Palheta 23\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 423,
+  "imagem": {
+   "arquivo": "61072.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61074",
+  "ref": null,
+  "nome": "Palheta 24\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 424,
+  "imagem": {
+   "arquivo": "61074.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "61075",
+  "ref": null,
+  "nome": "Disjuntor 50A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 425,
+  "imagem": {
+   "arquivo": "61075.jpg",
+   "largura": 216,
+   "altura": 211
+  }
+ },
+ {
+  "codigo": "61076",
+  "ref": null,
+  "nome": "Disjuntor 60A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 426,
+  "imagem": {
+   "arquivo": "61076.jpg",
+   "largura": 400,
+   "altura": 363
+  }
+ },
+ {
+  "codigo": "61077",
+  "ref": null,
+  "nome": "Disjuntor 80A",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 427,
+  "imagem": {
+   "arquivo": "61077.jpg",
+   "largura": 248,
+   "altura": 196
+  }
+ },
+ {
+  "codigo": "61078",
+  "ref": null,
+  "nome": "Kit trava 4 portas",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 428,
+  "imagem": {
+   "arquivo": "61078.jpg",
+   "largura": 316,
+   "altura": 346
+  }
+ },
+ {
+  "codigo": "61079",
+  "ref": null,
+  "nome": "Kit trava 2 portas",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 429,
+  "imagem": {
+   "arquivo": "61079.jpg",
+   "largura": 316,
+   "altura": 346
+  }
+ },
+ {
+  "codigo": "61089",
+  "ref": null,
+  "nome": "Palheta 26\"",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 430,
+  "imagem": {
+   "arquivo": "61089.jpg",
+   "largura": 400,
+   "altura": 188
+  }
+ },
+ {
+  "codigo": "60101",
+  "ref": null,
+  "nome": "Fita isolante 10mts",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 52,
+  "ordem": 431,
+  "imagem": {
+   "arquivo": "60101.jpg",
+   "largura": 400,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "60104",
+  "ref": null,
+  "nome": "Isolante 20mts",
+  "categoria": "automotivo",
+  "subgrupo": null,
+  "pagina": 53,
+  "ordem": 432,
+  "imagem": {
+   "arquivo": "60104.jpg",
+   "largura": 316,
+   "altura": 316
+  }
+ },
+ {
+  "codigo": "63001",
+  "ref": null,
+  "nome": "Relé 20A",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 433,
+  "imagem": {
+   "arquivo": "63001.jpg",
+   "largura": 180,
+   "altura": 198
+  }
+ },
+ {
+  "codigo": "63002",
+  "ref": null,
+  "nome": "Relé 10A 12V",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 434,
+  "imagem": {
+   "arquivo": "63002.jpg",
+   "largura": 328,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "63003",
+  "ref": null,
+  "nome": "Relé 5 pinos",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 435,
+  "imagem": {
+   "arquivo": "63003.jpg",
+   "largura": 166,
+   "altura": 182
+  }
+ },
+ {
+  "codigo": "63004",
+  "ref": null,
+  "nome": "Relé 4 pinos",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 436,
+  "imagem": {
+   "arquivo": "63004.jpg",
+   "largura": 210,
+   "altura": 209
+  }
+ },
+ {
+  "codigo": "63005",
+  "ref": null,
+  "nome": "Capacitor poliéster",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 437,
+  "imagem": {
+   "arquivo": "63005.jpg",
+   "largura": 188,
+   "altura": 152
+  }
+ },
+ {
+  "codigo": "63006",
+  "ref": null,
+  "nome": "Capacitor 47uF",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 438,
+  "imagem": {
+   "arquivo": "63006.jpg",
+   "largura": 240,
+   "altura": 142
+  }
+ },
+ {
+  "codigo": "63007",
+  "ref": null,
+  "nome": "Multímetro 360",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 439,
+  "imagem": {
+   "arquivo": "63007.jpg",
+   "largura": 250,
+   "altura": 247
+  }
+ },
+ {
+  "codigo": "63008",
+  "ref": null,
+  "nome": "Transformador 30A",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 440,
+  "imagem": {
+   "arquivo": "63008.jpg",
+   "largura": 318,
+   "altura": 244
+  }
+ },
+ {
+  "codigo": "63016",
+  "ref": null,
+  "nome": "Termostato analógico bivolt 110/220",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 441,
+  "imagem": {
+   "arquivo": "63016.jpg",
+   "largura": 305,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "63017",
+  "ref": null,
+  "nome": "Termostato digital bivolt 110/220",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 442,
+  "imagem": {
+   "arquivo": "63017.jpg",
+   "largura": 268,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "63030",
+  "ref": null,
+  "nome": "Capacitor 100uF",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 443,
+  "imagem": {
+   "arquivo": "63030.jpg",
+   "largura": 122,
+   "altura": 136
+  }
+ },
+ {
+  "codigo": "63031",
+  "ref": null,
+  "nome": "Testador RJ11 e RJ45",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 55,
+  "ordem": 444,
+  "imagem": {
+   "arquivo": "63031.jpg",
+   "largura": 282,
+   "altura": 213
+  }
+ },
+ {
+  "codigo": "63032",
+  "ref": "CT200",
+  "nome": "Teste UTP / CATV - CT200",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 445,
+  "imagem": {
+   "arquivo": "63032.jpg",
+   "largura": 235,
+   "altura": 156
+  }
+ },
+ {
+  "codigo": "63033",
+  "ref": null,
+  "nome": "Capacitor 22uF/250V pol",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 446,
+  "imagem": {
+   "arquivo": "63033.jpg",
+   "largura": 295,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "63034",
+  "ref": null,
+  "nome": "Soprador 220V",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 447,
+  "imagem": {
+   "arquivo": "63034.jpg",
+   "largura": 139,
+   "altura": 175
+  }
+ },
+ {
+  "codigo": "63035",
+  "ref": "DTCM9601A",
+  "nome": "Multímetro DTCM9601A",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 448,
+  "imagem": {
+   "arquivo": "63035.jpg",
+   "largura": 136,
+   "altura": 202
+  }
+ },
+ {
+  "codigo": "63036",
+  "ref": "DT9205",
+  "nome": "Multímetro DT9205",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 449,
+  "imagem": {
+   "arquivo": "63036.jpg",
+   "largura": 400,
+   "altura": 270
+  }
+ },
+ {
+  "codigo": "63037",
+  "ref": "266",
+  "nome": "Multímetro 266",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 450,
+  "imagem": {
+   "arquivo": "63037.jpg",
+   "largura": 400,
+   "altura": 344
+  }
+ },
+ {
+  "codigo": "63038",
+  "ref": "266C",
+  "nome": "Multímetro 266C",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 451,
+  "imagem": {
+   "arquivo": "63038.jpg",
+   "largura": 400,
+   "altura": 333
+  }
+ },
+ {
+  "codigo": "63044",
+  "ref": null,
+  "nome": "Tela metal 80x80mm",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 452,
+  "imagem": {
+   "arquivo": "63044.jpg",
+   "largura": 178,
+   "altura": 181
+  }
+ },
+ {
+  "codigo": "63046",
+  "ref": null,
+  "nome": "Transformador 110/240V saída 1",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 453,
+  "imagem": {
+   "arquivo": "63046.jpg",
+   "largura": 169,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "63047",
+  "ref": null,
+  "nome": "Transformador 110/240V saída 2",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 454,
+  "imagem": {
+   "arquivo": "63047.jpg",
+   "largura": 169,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "63048",
+  "ref": null,
+  "nome": "Transformador 110/240V saída 3",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 455,
+  "imagem": {
+   "arquivo": "63048.jpg",
+   "largura": 169,
+   "altura": 162
+  }
+ },
+ {
+  "codigo": "63049",
+  "ref": null,
+  "nome": "Inversor 12-110V 2000W",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 56,
+  "ordem": 456,
+  "imagem": {
+   "arquivo": "63049.jpg",
+   "largura": 400,
+   "altura": 235
+  }
+ },
+ {
+  "codigo": "63050",
+  "ref": null,
+  "nome": "Inversor 12-110V 3000W",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 457,
+  "imagem": {
+   "arquivo": "63050.jpg",
+   "largura": 400,
+   "altura": 239
+  }
+ },
+ {
+  "codigo": "63051",
+  "ref": null,
+  "nome": "Inversor 12-220V 300W",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 458,
+  "imagem": {
+   "arquivo": "63051.jpg",
+   "largura": 400,
+   "altura": 264
+  }
+ },
+ {
+  "codigo": "63052",
+  "ref": null,
+  "nome": "Capacitor 220uF/100V",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 459,
+  "imagem": {
+   "arquivo": "63052.jpg",
+   "largura": 376,
+   "altura": 250
+  }
+ },
+ {
+  "codigo": "63053",
+  "ref": null,
+  "nome": "Capacitor 22uF/100V",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 460,
+  "imagem": {
+   "arquivo": "63053.jpg",
+   "largura": 120,
+   "altura": 133
+  }
+ },
+ {
+  "codigo": "63054",
+  "ref": null,
+  "nome": "Teste UTP",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 461,
+  "imagem": {
+   "arquivo": "63054.jpg",
+   "largura": 346,
+   "altura": 250
+  }
+ },
+ {
+  "codigo": "63056",
+  "ref": "DT830B",
+  "nome": "Multímetro digital DT830B",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 462,
+  "imagem": {
+   "arquivo": "63056.jpg",
+   "largura": 150,
+   "altura": 150
+  }
+ },
+ {
+  "codigo": "63057",
+  "ref": "DT33C",
+  "nome": "Multímetro DT33C",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 463,
+  "imagem": {
+   "arquivo": "63057.jpg",
+   "largura": 152,
+   "altura": 146
+  }
+ },
+ {
+  "codigo": "63058",
+  "ref": "DT8204D",
+  "nome": "Multímetro DT8204D",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 464,
+  "imagem": {
+   "arquivo": "63058.jpg",
+   "largura": 170,
+   "altura": 159
+  }
+ },
+ {
+  "codigo": "63059",
+  "ref": "DT858L",
+  "nome": "Multímetro DT858L",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 465,
+  "imagem": {
+   "arquivo": "63059.jpg",
+   "largura": 170,
+   "altura": 170
+  }
+ },
+ {
+  "codigo": "63060",
+  "ref": "DTG830L",
+  "nome": "Multímetro DTG830L",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 466,
+  "imagem": {
+   "arquivo": "63060.jpg",
+   "largura": 338,
+   "altura": 286
+  }
+ },
+ {
+  "codigo": "63061",
+  "ref": "DTKT7832",
+  "nome": "Multímetro DTKT7832",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 467,
+  "imagem": {
+   "arquivo": "63061.jpg",
+   "largura": 184,
+   "altura": 180
+  }
+ },
+ {
+  "codigo": "63062",
+  "ref": "DTWH5000",
+  "nome": "Multímetro DTWH5000",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 57,
+  "ordem": 468,
+  "imagem": {
+   "arquivo": "63062.jpg",
+   "largura": 111,
+   "altura": 180
+  }
+ },
+ {
+  "codigo": "63063",
+  "ref": "DM101",
+  "nome": "Multímetro DM101 (DTG)",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 58,
+  "ordem": 469,
+  "imagem": {
+   "arquivo": "63063.jpg",
+   "largura": 141,
+   "altura": 204
+  }
+ },
+ {
+  "codigo": "63064",
+  "ref": "DT830L",
+  "nome": "Multímetro DT830L",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 58,
+  "ordem": 470,
+  "imagem": {
+   "arquivo": "63064.jpg",
+   "largura": 218,
+   "altura": 180
+  }
+ },
+ {
+  "codigo": "63065",
+  "ref": null,
+  "nome": "Termostato digital 110V",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 58,
+  "ordem": 471,
+  "imagem": {
+   "arquivo": "63065.jpg",
+   "largura": 275,
+   "altura": 246
+  }
+ },
+ {
+  "codigo": "63066",
+  "ref": null,
+  "nome": "Relé 12VDC",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 58,
+  "ordem": 472,
+  "imagem": {
+   "arquivo": "63066.jpg",
+   "largura": 358,
+   "altura": 400
+  }
+ },
+ {
+  "codigo": "63067",
+  "ref": null,
+  "nome": "Relé 24VDC-SL 20A",
+  "categoria": "reles-eletronicos",
+  "subgrupo": null,
+  "pagina": 58,
+  "ordem": 473,
+  "imagem": {
+   "arquivo": "63067.jpg",
+   "largura": 147,
+   "altura": 166
+  }
+ },
+ {
+  "codigo": "62001",
+  "ref": null,
+  "nome": "Bateria A23 cartela",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 474,
+  "imagem": {
+   "arquivo": "62001.jpg",
+   "largura": 112,
+   "altura": 82
+  }
+ },
+ {
+  "codigo": "62002",
+  "ref": null,
+  "nome": "Bateria 2016",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 475,
+  "imagem": {
+   "arquivo": "62002.jpg",
+   "largura": 81,
+   "altura": 59
+  }
+ },
+ {
+  "codigo": "62003",
+  "ref": null,
+  "nome": "Bateria 2025",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 476,
+  "imagem": {
+   "arquivo": "62003.jpg",
+   "largura": 74,
+   "altura": 72
+  }
+ },
+ {
+  "codigo": "62004",
+  "ref": null,
+  "nome": "Bateria 2032",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 477,
+  "imagem": {
+   "arquivo": "62004.jpg",
+   "largura": 76,
+   "altura": 70
+  }
+ },
+ {
+  "codigo": "62005",
+  "ref": null,
+  "nome": "Bateria 2450",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 478,
+  "imagem": {
+   "arquivo": "62005.jpg",
+   "largura": 77,
+   "altura": 69
+  }
+ },
+ {
+  "codigo": "62006",
+  "ref": null,
+  "nome": "Bateria 2477",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 479,
+  "imagem": {
+   "arquivo": "62006.jpg",
+   "largura": 78,
+   "altura": 73
+  }
+ },
+ {
+  "codigo": "62007",
+  "ref": null,
+  "nome": "Bateria LR6 AA",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 480,
+  "imagem": {
+   "arquivo": "62007.jpg",
+   "largura": 800,
+   "altura": 800
+  }
+ },
+ {
+  "codigo": "62008",
+  "ref": null,
+  "nome": "Bateria LR03 AAA",
+  "categoria": "baterias",
+  "subgrupo": null,
+  "pagina": 60,
+  "ordem": 481,
+  "imagem": {
+   "arquivo": "62008.jpg",
+   "largura": 800,
+   "altura": 800
+  }
+ }
+]

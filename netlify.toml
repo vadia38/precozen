@@ -1,0 +1,10 @@
+# Netlify (e referência para Cloudflare Pages: comando "npm run build", pasta "dist").
+[build]
+  command = "npm test && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Ajuste para o domínio final do site:
+  SITE_URL = "https://catalogo.awucloud.com.br"
+  BASE_PATH = "/"

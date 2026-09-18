@@ -1,0 +1,73 @@
+{
+  "_comentario": "Dicionário usado no build para marcar cada produto com montadora e modelos a partir do nome. 'marca' são palavras da marca; 'modelos' são nomes de veículos. A comparação ignora acentos, maiúsculas e hífens (T-Cross = tcross). Evite números que pareçam ano (2008) para não gerar falsos positivos.",
+  "fiat": {
+    "nome": "Fiat",
+    "marca": ["fiat"],
+    "modelos": ["Uno", "Palio", "Idea", "Argo", "Strada", "Mobi", "Toro", "Bravo", "Siena", "Punto", "Fiorino", "Doblò", "Cronos", "Pulse", "Fastback", "Ducato", "Linea", "Stilo", "Tempra", "Marea", "Weekend", "Grand Siena"]
+  },
+  "ford": {
+    "nome": "Ford",
+    "marca": ["ford"],
+    "modelos": ["Ka", "Fiesta", "EcoSport", "Verona", "Escort", "Fusion", "Edge", "Focus", "F-150", "F-250", "Ranger", "Transit", "Courier", "Territory", "Maverick", "Bronco"]
+  },
+  "gm": {
+    "nome": "GM / Chevrolet",
+    "marca": ["gm", "chevrolet"],
+    "modelos": ["Corsa", "Prisma", "Celta", "Onix", "Spin", "Cobalt", "Agile", "Vectra", "Astra", "Zafira", "Kadett", "Montana", "S10", "Blazer", "Sonic", "Cruze", "Tracker", "Meriva", "Omega", "Captiva", "Equinox", "Trailblazer", "Silverado", "Monza"]
+  },
+  "vw": {
+    "nome": "Volkswagen",
+    "marca": ["vw", "volkswagen"],
+    "modelos": ["Gol", "Parati", "Fox", "Polo", "Voyage", "Up", "Tiguan", "Jetta", "Passat", "Golf", "Santana", "T-Cross", "Virtus", "Nivus", "Taos", "Amarok", "Saveiro", "Kombi", "Fusca", "Bora", "CrossFox", "SpaceFox", "Quantum", "Logus", "Pointer", "Apollo", "Constellation", "Delivery"]
+  },
+  "renault": {
+    "nome": "Renault",
+    "marca": ["renault"],
+    "modelos": ["Logan", "Sandero", "Clio", "Scenic", "Duster", "Master", "Kwid", "Captur", "Megane", "Oroch", "Symbol", "Kangoo", "Fluence"]
+  },
+  "honda": {
+    "nome": "Honda",
+    "marca": ["honda"],
+    "modelos": ["Civic", "Fit", "City", "CR-V", "CRV", "HR-V", "HRV", "Accord", "WR-V", "WRV"]
+  },
+  "nissan": {
+    "nome": "Nissan",
+    "marca": ["nissan"],
+    "modelos": ["Versa", "March", "Sentra", "Kicks", "Frontier", "Tiida", "Livina"]
+  },
+  "hyundai-kia": {
+    "nome": "Hyundai / Kia",
+    "marca": ["hyundai", "kia"],
+    "modelos": ["HB20", "HB20S", "HB20X", "i30", "IX35", "Veloster", "Soul", "Sportage", "Creta", "Tucson", "Cerato", "Picanto", "Elantra", "Azera", "Santa Fe", "Sorento", "Bongo"]
+  },
+  "peugeot": {
+    "nome": "Peugeot / Citroën",
+    "marca": ["peugeot", "citroen"],
+    "modelos": ["206", "207", "208", "306", "307", "308", "407", "408", "C3", "C4", "Picasso", "Aircross", "Xsara", "Partner", "Boxer", "Jumper"]
+  },
+  "toyota": {
+    "nome": "Toyota",
+    "marca": ["toyota"],
+    "modelos": ["Hilux", "Etios", "Corolla", "Fielder", "Yaris", "SW4", "RAV4", "Camry"]
+  },
+  "mitsubishi": {
+    "nome": "Mitsubishi",
+    "marca": ["mitsubishi"],
+    "modelos": ["L200", "Pajero", "ASX", "Outlander", "Lancer", "Triton"]
+  },
+  "mercedes": {
+    "nome": "Mercedes-Benz",
+    "marca": ["mercedes", "mercedesbenz"],
+    "modelos": ["Sprinter", "Vito"]
+  },
+  "audi": {
+    "nome": "Audi",
+    "marca": ["audi"],
+    "modelos": ["A3", "A4", "Q3", "Q5"]
+  },
+  "jeep": {
+    "nome": "Jeep",
+    "marca": ["jeep"],
+    "modelos": ["Renegade", "Compass", "Commander"]
+  }
+}

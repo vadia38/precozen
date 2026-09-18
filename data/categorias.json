@@ -1,0 +1,125 @@
+[
+  {
+    "id": "botoes",
+    "numero": 1,
+    "nome": "Botões",
+    "nomeCurto": "Botões",
+    "descricao": "Botões de vidro elétrico, neblina, travas e faróis de milha",
+    "icone": "botao",
+    "cor": "ambar",
+    "alias": ["botoes"],
+    "subgrupos": [
+      { "id": "fiat", "nome": "Fiat" },
+      { "id": "ford", "nome": "Ford" },
+      { "id": "gm", "nome": "GM / Chevrolet" },
+      { "id": "vw", "nome": "Volkswagen" },
+      { "id": "renault", "nome": "Renault" },
+      { "id": "honda", "nome": "Honda" },
+      { "id": "nissan", "nome": "Nissan" },
+      { "id": "hyundai-kia", "nome": "Hyundai / Kia" },
+      { "id": "peugeot", "nome": "Peugeot / Citroën" },
+      { "id": "toyota", "nome": "Toyota" },
+      { "id": "outros", "nome": "Universal / outros" }
+    ]
+  },
+  {
+    "id": "microventiladores",
+    "numero": 2,
+    "nome": "Microventiladores",
+    "nomeCurto": "Microventiladores",
+    "descricao": "Microventiladores e ventiladores 12V, 24V e bivolt",
+    "icone": "ventilador",
+    "cor": "ciano",
+    "alias": ["micro"]
+  },
+  {
+    "id": "chicotes",
+    "numero": 3,
+    "nome": "Chicotes",
+    "nomeCurto": "Chicotes",
+    "descricao": "Chicotes de som e antena por montadora",
+    "icone": "chicote",
+    "cor": "violeta",
+    "alias": ["chicotes"]
+  },
+  {
+    "id": "led",
+    "numero": 4,
+    "nome": "LED",
+    "nomeCurto": "LED",
+    "descricao": "Lâmpadas LED automotivas e iluminação",
+    "icone": "led",
+    "cor": "amarelo",
+    "alias": ["led"]
+  },
+  {
+    "id": "maquinas-de-vidro",
+    "numero": 5,
+    "nome": "Máquinas de vidro",
+    "nomeCurto": "Máq. de vidro",
+    "descricao": "Máquinas de vidro por modelo — lado direito e esquerdo",
+    "icone": "maquina",
+    "cor": "azul",
+    "alias": ["maq"]
+  },
+  {
+    "id": "conectores-cabos",
+    "numero": 6,
+    "nome": "Conectores e cabos",
+    "nomeCurto": "Conectores",
+    "descricao": "Conectores, plugs, cabos HDMI, RCA e acessórios",
+    "icone": "conector",
+    "cor": "teal",
+    "alias": ["conectores"]
+  },
+  {
+    "id": "ferramentas",
+    "numero": 7,
+    "nome": "Ferramentas",
+    "nomeCurto": "Ferramentas",
+    "descricao": "Alicates, crimpadores, punchdown e ferramentas de bancada",
+    "icone": "ferramenta",
+    "cor": "laranja",
+    "alias": ["ferramentas"]
+  },
+  {
+    "id": "estribos",
+    "numero": 8,
+    "nome": "Estribos",
+    "nomeCurto": "Estribos",
+    "descricao": "Estribos elétricos para picapes e vans",
+    "icone": "estribo",
+    "cor": "cinza",
+    "alias": ["estribos"]
+  },
+  {
+    "id": "automotivo",
+    "numero": 9,
+    "nome": "Automotivo",
+    "nomeCurto": "Automotivo",
+    "descricao": "Motores, câmeras, sensores, palhetas e acessórios",
+    "icone": "carro",
+    "cor": "vermelho",
+    "alias": ["automotivo"]
+  },
+  {
+    "id": "reles-eletronicos",
+    "numero": 10,
+    "nome": "Relés e eletrônicos",
+    "nomeCurto": "Relés",
+    "descricao": "Relés, multímetros, capacitores, inversores e transformadores",
+    "icone": "rele",
+    "cor": "verde",
+    "alias": ["reles"]
+  },
+  {
+    "id": "baterias",
+    "numero": 11,
+    "nome": "Baterias",
+    "nomeCurto": "Baterias",
+    "descricao": "Baterias tipo moeda, A23, AA e AAA",
+    "icone": "bateria",
+    "cor": "lima",
+    "alias": ["baterias"]
+  }
+]

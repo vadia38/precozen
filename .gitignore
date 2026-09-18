@@ -1,0 +1,18 @@
+# Saída do build
+dist/
+
+# Dependências (o projeto não usa nenhuma, mas por segurança)
+node_modules/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# Python (scripts/extrair-pdf.py)
+__pycache__/
+*.pyc
+.venv/

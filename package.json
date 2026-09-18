@@ -1,0 +1,19 @@
+{
+  "name": "catalogo-luretec",
+  "version": "1.0.0",
+  "description": "Catálogo online Luretec 2026 — site estático gerado a partir de data/produtos.json, sem dependências externas.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.js",
+    "dev": "node scripts/dev.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "validar": "node scripts/validar-dados.js",
+    "importar": "node scripts/importar-catalogo.js",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "license": "UNLICENSED"
+}
