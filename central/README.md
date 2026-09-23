@@ -108,6 +108,25 @@ Com a IA ligada: `afiliados reviews --ia` (reescreve introdução, prós/contras
 
 `painel build` gera `workspace/painel/index.html` (indicadores, gráficos de score e ganho/100 cliques, ranking, conteúdo, livros, designs, próximos passos). `painel servir` serve a pasta de trabalho: painel em `/painel/`, blog em `/blog/dist/`. O painel contém dados internos (comissões, vendas estimadas): **não publique**.
 
+## Deploy do blog na Cloudflare
+
+O blog é publicado como **Worker com assets estáticos** (`central/wrangler.jsonc`, nome `precozen-blog`, pasta `workspace/blog/dist`). O `_headers` gerado no build aplica cabeçalhos de segurança e marca o domínio de pré-visualização `*.workers.dev` como `noindex`; o domínio próprio é indexado normalmente. Três formas de publicar:
+
+**1. Pelo painel da Cloudflare (Workers Builds, sem instalar nada).** Em *Workers & Pages → Create application → Import a repository*, escolha `vadia38/precozen` e configure: root directory `central`, build command `npm run build:blog`, deploy command `npx wrangler deploy`, nome do Worker `precozen-blog` (precisa ser igual ao `name` do `wrangler.jsonc`), branch de produção a que preferir. Em *Build variables*, defina `SITE_URL` com a URL pública (por exemplo `https://precozen-blog.<sua-conta>.workers.dev` ou o domínio próprio) para os canônicos e o sitemap saírem certos. A cada push a Cloudflare reconstrói e publica.
+
+**2. Pelo GitHub Actions** (`.github/workflows/cloudflare-blog.yml`). Crie um token em *Account API tokens → Create Token → Edit Cloudflare Workers* e cadastre no repositório, em *Settings → Secrets and variables → Actions*: os segredos `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID` e, opcionalmente, a variável `SITE_URL_BLOG`. O workflow roda nos pushes em `main` que tocam `central/` e também manualmente (*Actions → Publicar blog Precozen na Cloudflare → Run workflow*, em qualquer branch).
+
+**3. Do seu computador.**
+
+```
+cd central && npm install            # instala o wrangler (devDependency)
+npx wrangler login                    # abre o navegador para autorizar
+npm run deploy                        # gera o blog e publica em https://precozen-blog.<sua-conta>.workers.dev
+npm run deploy:preview                # só envia uma versão de pré-visualização
+```
+
+Domínio próprio: em *Workers & Pages → precozen-blog → Settings → Domains & Routes → Add custom domain*. Depois ajuste `marca.url` em `precozen.config.json` (ou `SITE_URL`) para o domínio final e publique de novo.
+
 ## Estrutura
 
 ```

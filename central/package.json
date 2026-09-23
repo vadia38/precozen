@@ -16,10 +16,16 @@
     "exemplo": "node bin/precozen.js exemplo",
     "blog": "node bin/precozen.js blog build",
     "painel": "node bin/precozen.js painel build",
-    "servir": "node bin/precozen.js painel servir"
+    "servir": "node bin/precozen.js painel servir",
+    "build:blog": "node bin/precozen.js blog build",
+    "deploy": "node bin/precozen.js blog build && wrangler deploy",
+    "deploy:preview": "node bin/precozen.js blog build && wrangler versions upload"
   },
   "optionalDependencies": {
     "@anthropic-ai/sdk": "^0.128.0"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "wrangler": "^4.136.0"
+  }
 }

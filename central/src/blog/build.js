@@ -82,7 +82,7 @@ export function construirBlog(opcoes = {}) {
   gravarTexto(path.join(out, 'robots.txt'), robots(urlAbs('sitemap.xml')));
   gravarTexto(path.join(out, 'feed.xml'), feedRss({ config, posts: blog.posts, urlAbs }));
   gravarTexto(path.join(out, 'api', 'posts.json'), JSON.stringify({ geradoEm: ctx.dataIso, total: blog.posts.length, posts: blog.posts.map((p) => ({ titulo: p.titulo, slug: p.slug, url: `${base}${p.url}`, tipo: p.tipo, categoria: p.categoria, categoriaNome: p.categoriaNome, descricao: p.descricao, data: p.data, nota: p.nota ?? null, preco: p.preco || null, moeda: p.moeda || 'BRL', imagem: p.imagem || null, tags: p.tags, minutos: p.minutos, produtoNome: p.produtoNome || null, marca: p.marca || null })) }));
-  gravarTexto(path.join(out, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/css/*\n  Cache-Control: public, max-age=31536000, immutable\n/js/*\n  Cache-Control: public, max-age=31536000, immutable\n`);
+  gravarTexto(path.join(out, '_headers'), `/*\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/css/*\n  Cache-Control: public, max-age=31536000, immutable\n/js/*\n  Cache-Control: public, max-age=31536000, immutable\n# Pré-visualização em workers.dev fora dos buscadores (o domínio próprio é indexado normalmente)\nhttps://:worker.:subdomain.workers.dev/*\n  X-Robots-Tag: noindex\n`);
   return { paginas: paginas.length, posts: blog.posts.length, categorias: blog.categorias.length, base, url, versao: ver, saida: out, ms: Date.now() - inicio };
 }
 

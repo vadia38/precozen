@@ -1,0 +1,50 @@
+name: Publicar blog Precozen na Cloudflare
+
+# Publica central/workspace/blog/dist como Worker com assets estáticos (nome: precozen-blog).
+# Exige os segredos do repositório CLOUDFLARE_API_TOKEN (permissão "Edit Cloudflare Workers") e CLOUDFLARE_ACCOUNT_ID.
+# Opcional: variável SITE_URL_BLOG com a URL pública (domínio próprio ou https://precozen-blog.<conta>.workers.dev).
+
+on:
+  push:
+    branches: [main]
+    paths: ['central/**', '.github/workflows/cloudflare-blog.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-blog
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    name: Build e deploy (Workers)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Conferir segredos
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CONTA: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$TOKEN" ] || [ -z "$CONTA" ]; then
+            echo "::error::Defina os segredos CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID em Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+      - name: Testes do Precozen Central
+        run: npm run test:central
+      - name: Gerar o blog
+        env:
+          SITE_URL: ${{ vars.SITE_URL_BLOG }}
+        run: node central/bin/precozen.js blog build --base /
+      - name: Deploy na Cloudflare
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: central
+          command: deploy

@@ -76,6 +76,7 @@ test('build do blog com conteúdo próprio e CSP', () => {
   assert.ok(fs.existsSync(path.join(out, 'sobre/index.html')));
   assert.ok(fs.existsSync(path.join(out, 'css/tema.css')));
   assert.match(ler('busca/index.html'), /noindex/);
+  assert.match(ler('_headers'), /workers\.dev\/\*\n\s+X-Robots-Tag: noindex/);
   assert.match(politicaCsp(config), /script-src 'self'; /);
   assert.match(politicaCsp({ ...config, blog: { ...config.blog, anuncios: { adsense: 'ca-pub-1' } } }), /googlesyndication/);
 });
