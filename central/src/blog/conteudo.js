@@ -7,7 +7,8 @@ import { slug, ordenarPor, truncar, urlSegura } from '../core/util.js';
 import { markdownParaHtml, markdownParaTexto, tempoLeitura } from './markdown.js';
 import { categoriasCanonicas } from '../afiliados/programas.js';
 
-export const DIR_CONTEUDO = path.join(RAIZ_CENTRAL, 'conteudo');
+/** Pasta do conteúdo (posts, páginas, imagens). Pode ser trocada por PRECOZEN_CONTEUDO. */
+export const DIR_CONTEUDO = process.env.PRECOZEN_CONTEUDO ? path.resolve(process.env.PRECOZEN_CONTEUDO) : path.join(RAIZ_CENTRAL, 'conteudo');
 
 const PAGINAS_FIXAS = { sobre: 'Sobre', divulgacao: 'Divulgação de afiliados', privacidade: 'Política de privacidade', contato: 'Contato', metodologia: 'Metodologia' };
 
@@ -22,13 +23,13 @@ export function validarPost(meta, arquivo) {
   return erros;
 }
 
-export function carregarPosts(dir = path.join(DIR_CONTEUDO, 'posts')) {
+export function carregarPosts(dir = path.join(DIR_CONTEUDO, 'posts'), { rascunhos = false } = {}) {
   const erros = [];
   const posts = [];
   const slugs = new Set();
   for (const arquivo of listarArquivos(dir, (p) => p.endsWith('.md'))) {
     const { meta, corpo } = lerFrontMatter(fs.readFileSync(arquivo, 'utf8'));
-    if (meta.rascunho === true) continue;
+    if (meta.rascunho === true && !rascunhos) continue;
     meta.slug = meta.slug || slug(path.basename(arquivo, '.md'));
     erros.push(...validarPost(meta, path.basename(arquivo)));
     if (slugs.has(meta.slug)) erros.push(`${path.basename(arquivo)}: slug repetido (${meta.slug})`);
@@ -37,6 +38,7 @@ export function carregarPosts(dir = path.join(DIR_CONTEUDO, 'posts')) {
     const texto = markdownParaTexto(corpo);
     posts.push({
       ...meta,
+      rascunho: meta.rascunho === true,
       tipo: meta.tipo || 'artigo',
       categoria: meta.categoria || 'outros',
       categoriaNome: meta.categoriaNome || categoriasCanonicas()[meta.categoria]?.nome || 'Geral',
@@ -67,8 +69,8 @@ export function carregarPaginas(dir = path.join(DIR_CONTEUDO, 'paginas')) {
 }
 
 /** Modelo completo do blog: posts, páginas, categorias com contagem, tags. */
-export function carregarBlog({ dirPosts, dirPaginas } = {}) {
-  const { posts, erros } = carregarPosts(dirPosts);
+export function carregarBlog({ dirPosts, dirPaginas, rascunhos = false } = {}) {
+  const { posts, erros } = carregarPosts(dirPosts, { rascunhos });
   const paginas = carregarPaginas(dirPaginas);
   const cats = categoriasCanonicas();
   const porCategoria = new Map();

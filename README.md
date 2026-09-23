@@ -3,7 +3,7 @@
 Este repositório tem dois projetos independentes:
 
 - **Catálogo Luretec 2026** (raiz): site estático do catálogo de componentes automotivos, descrito abaixo.
-- **Precozen Central** (`central/`): sistema de monetização com blog de análises de produtos de programas de afiliados (pontuação por vendas × comissão), geração de livros para o Amazon KDP e designs para venda na Amazon (Merch, capas, listagens), com estimativas fiscais e painel. Veja [`central/README.md`](central/README.md).
+- **Precozen Central** (`central/`): sistema de monetização com blog de análises de produtos de programas de afiliados (pontuação por vendas × comissão), geração de livros para o Amazon KDP e designs para venda na Amazon (Merch, capas, listagens), com estimativas fiscais e um painel administrativo local (`npm run admin`) para operar tudo pelo navegador. Veja [`central/README.md`](central/README.md).
 
 ```
 node central/bin/precozen.js exemplo     # fluxo completo com dados de exemplo

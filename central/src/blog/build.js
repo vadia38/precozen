@@ -4,7 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { RAIZ_CENTRAL, workspace, gravarTexto, limparDir, listarArquivos } from '../core/arquivos.js';
 import { dataIso, escapeHtml } from '../core/util.js';
-import { carregarBlog } from './conteudo.js';
+import { carregarBlog, DIR_CONTEUDO } from './conteudo.js';
 import { layout } from './layout.js';
 import { todasPaginas } from './paginas.js';
 import { sitemap, robots } from './seo.js';
@@ -37,7 +37,7 @@ function favicon(config) {
 }
 
 /**
- * Constrói o blog. opcoes: { config, out, base, url, data, dirPosts, dirPaginas }
+ * Constrói o blog. opcoes: { config, out, base, url, data, dirPosts, dirPaginas, rascunhos }
  */
 export function construirBlog(opcoes = {}) {
   const inicio = Date.now();
@@ -47,7 +47,7 @@ export function construirBlog(opcoes = {}) {
   const url = normalizarUrl(opcoes.url || process.env.SITE_URL_BLOG || config.marca.url);
   const out = path.resolve(opcoes.out || workspace('blog', 'dist'));
   const hoje = opcoes.data ? new Date(opcoes.data) : new Date();
-  const blog = carregarBlog({ dirPosts: opcoes.dirPosts, dirPaginas: opcoes.dirPaginas });
+  const blog = carregarBlog({ dirPosts: opcoes.dirPosts, dirPaginas: opcoes.dirPaginas, rascunhos: Boolean(opcoes.rascunhos) });
   if (blog.erros.length) {
     const e = new Error(`conteúdo inválido:\n - ${blog.erros.join('\n - ')}`);
     e.erros = blog.erros;
@@ -64,7 +64,7 @@ export function construirBlog(opcoes = {}) {
   fs.copyFileSync(path.join(templates, 'blog.css'), path.join(out, 'css', 'blog.css'));
   fs.copyFileSync(path.join(templates, 'blog.js'), path.join(out, 'js', 'blog.js'));
   fs.copyFileSync(path.join(templates, 'tema.js'), path.join(out, 'js', 'tema.js'));
-  const dirImg = path.join(RAIZ_CENTRAL, 'conteudo', 'img');
+  const dirImg = path.join(DIR_CONTEUDO, 'img');
   if (fs.existsSync(dirImg)) fs.cpSync(dirImg, path.join(out, 'img'), { recursive: true });
   gravarTexto(path.join(out, 'favicon.svg'), favicon(config));
   gravarTexto(path.join(out, 'css', 'tema.css'), `:root{--cor-primaria:${config.marca.tema.corPrimaria};--cor-acento:${config.marca.tema.corAcento}}\n`);

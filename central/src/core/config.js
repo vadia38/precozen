@@ -6,7 +6,7 @@ import { RAIZ_CENTRAL, lerJson } from './arquivos.js';
 let carregouEnv = false;
 
 /** Carrega central/.env (sem sobrescrever variáveis já definidas). */
-export function carregarEnv(arquivo = path.join(RAIZ_CENTRAL, '.env')) {
+export function carregarEnv(arquivo = process.env.PRECOZEN_ENV || path.join(RAIZ_CENTRAL, '.env')) {
   if (carregouEnv) return;
   carregouEnv = true;
   if (!fs.existsSync(arquivo)) return;

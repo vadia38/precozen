@@ -20,7 +20,8 @@
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "central": "node central/bin/precozen.js",
     "deploy:blog": "node central/bin/precozen.js blog build && npx wrangler deploy",
-    "deploy:catalogo": "npm run build:catalogo && npx wrangler deploy --config wrangler.catalogo.jsonc"
+    "deploy:catalogo": "npm run build:catalogo && npx wrangler deploy --config wrangler.catalogo.jsonc",
+    "admin": "node central/bin/precozen.js painel admin --abrir"
   },
   "license": "UNLICENSED"
 }

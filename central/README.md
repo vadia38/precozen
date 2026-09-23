@@ -11,7 +11,8 @@ Tudo em Node 20+ sem dependências obrigatórias. A geração de texto com IA (C
 ```
 cd central
 node bin/precozen.js exemplo          # roda o fluxo completo com dados de exemplo (≈ 3 s)
-node bin/precozen.js painel servir    # http://localhost:4190/painel/ e /blog/dist/
+node bin/precozen.js painel admin     # painel administrativo em http://127.0.0.1:4200 (link com token no terminal)
+node bin/precozen.js painel servir    # http://localhost:4190/painel/ e /blog/dist/ (estático)
 node bin/precozen.js ajuda            # todos os módulos e comandos
 ```
 
@@ -104,9 +105,37 @@ node bin/precozen.js ia status && node bin/precozen.js ia testar
 
 Com a IA ligada: `afiliados reviews --ia` (reescreve introdução, prós/contras detalhados, análise, veredito e FAQ mantendo links, ficha técnica e rodapé), `kdp metadados --ia`, `kdp manuscrito`, `design ideias --ia`, `design listagem --ia`. Modelo, esforço, `max_tokens`, cache em disco (`workspace/ia-cache`) e fallbacks do servidor em `ia` na config. Saídas são JSON com esquema (structured outputs). Dados de marketplaces entram nos prompts como dados, com instrução explícita para ignorar instruções embutidas neles.
 
-## Painel
+## Painel administrativo
 
-`painel build` gera `workspace/painel/index.html` (indicadores, gráficos de score e ganho/100 cliques, ranking, conteúdo, livros, designs, próximos passos). `painel servir` serve a pasta de trabalho: painel em `/painel/`, blog em `/blog/dist/`. O painel contém dados internos (comissões, vendas estimadas): **não publique**.
+```bash
+node bin/precozen.js painel admin --abrir   # ou: npm run admin
+```
+
+Sobe um painel web local em `http://127.0.0.1:4200` e imprime o link de acesso com o token (`/?token=...`). Nele você administra tudo sem usar o terminal:
+
+| Tela | O que faz |
+|---|---|
+| Início | indicadores (ganho por 100 cliques, produtos, análises, livros, designs), próximos passos com botões, situação do sistema (IA, renderizador, blog, configuração) |
+| Produtos | importa CSV/JSON (arquivo ou colado) ou de fontes online, roda a análise, edita/exclui produtos, seleciona produtos e gera as análises |
+| Conteúdo | lista posts e páginas, cria posts, edita metadados e o Markdown, pré-visualiza (inclui rascunhos), exclui |
+| Publicação | gera o site, pré-visualiza em um iframe, publica na Cloudflare (`wrangler deploy`) ou envia o conteúdo para o GitHub (commit + push na branch atual) |
+| KDP | gera livros (formulário com as opções de cada tipo), calcula preço/royalty, metadados, pontua nichos, manuscritos com IA |
+| Design | estampas Merch (galeria), capas, listagens, ideias por nicho (com botão "Produzir"), conformidade |
+| Fiscal | estimativa PF × MEI × Simples |
+| IA | estado do SDK/credencial, teste de conexão, parâmetros do modelo |
+| Arquivos | navega na pasta de trabalho, abre/baixa/exclui saídas |
+| Configuração | formulário do `precozen.config.json` (marca, tags de afiliado, blog, KDP, design, fiscal), JSON avançado e **chaves** (`.env`) |
+| Tarefas | histórico e log ao vivo dos comandos executados |
+
+Cada ação (importar, analisar, gerar análises, build, deploy, livro, estampa…) vira uma **tarefa**: o painel executa o próprio CLI em um processo filho e mostra o log em tempo real (uma tarefa por vez, com cancelamento). O que a interface pode disparar está em um catálogo fechado (`src/painel/admin/acoes.js`): cada opção é validada (tipo, limites, opções, caminhos permitidos) e passada como argumento, sem shell.
+
+Segurança: o servidor só escuta em `127.0.0.1`; o acesso exige o token (gerado a cada execução ou fixo em `PRECOZEN_PAINEL_TOKEN`), que vira um cookie de sessão `HttpOnly; SameSite=Strict` (12 h); requisições que alteram estado exigem o cabeçalho `X-Precozen-Painel` e origem própria (anti-CSRF); o cabeçalho `Host` é verificado (anti-DNS-rebinding); 10 tentativas erradas por minuto bloqueiam o login; CSP estrita na interface; chaves nunca são devolvidas pela API (só "definida/vazia") e ficam em `central/.env` com permissão 600. Para expor em outra interface (`--host 0.0.0.0`) é obrigatório definir `PRECOZEN_PAINEL_TOKEN` — e recomendável usar um túnel/HTTPS; nesse modo o painel aceita `Host` com IP literal e os nomes listados em `PRECOZEN_PAINEL_HOSTS` (separados por vírgula). O painel contém dados internos (comissões, vendas estimadas): **não publique**.
+
+Variáveis relacionadas (em `central/.env`): `PRECOZEN_PAINEL_TOKEN`, `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID` (deploy pelo painel), `SITE_URL_BLOG`/`BASE_PATH_BLOG` (build), `PRECOZEN_CONTEUDO` (pasta de conteúdo alternativa) e `PRECOZEN_ENV` (outro caminho para o `.env`).
+
+### Painel estático
+
+`painel build` gera `workspace/painel/index.html` (indicadores, gráficos de score e ganho/100 cliques, ranking, conteúdo, livros, designs, próximos passos). `painel servir` serve a pasta de trabalho: painel em `/painel/`, blog em `/blog/dist/`.
 
 ## Deploy do blog na Cloudflare
 
@@ -143,10 +172,10 @@ central/
   src/design                 especificações, paletas, camiseta, capa, listagem, conformidade, render
   src/fiscal                 cálculos
   src/ia                     cliente (SDK sob demanda), prompts/esquemas, reescrita de reviews
-  src/painel                 build, servidor, exemplo (fluxo completo)
+  src/painel                 build, servidor, exemplo (fluxo completo), admin/ (painel administrativo: sessão, API, ações, tarefas)
   data/                      programas e comissões, categorias, produtos-exemplo.csv, nichos-exemplo.csv, temas de caça-palavras, palavras proibidas
   conteudo/posts, paginas    conteúdo do blog (Markdown)
-  templates/                 blog.css, blog.js, tema.js, painel.css
+  templates/                 blog.css, blog.js, tema.js, painel.css, admin/ (interface do painel administrativo)
   tests/                     node --test
   workspace/                 saídas geradas (ignorado pelo git; PRECOZEN_WORKSPACE muda a pasta)
 ```

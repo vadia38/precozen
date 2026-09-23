@@ -2,13 +2,14 @@
 // Modo template (determinístico, sem IA) + modo IA opcional (src/ia) que reescreve/expande as seções.
 import path from 'node:path';
 import { RAIZ_CENTRAL, gravarTexto, existe } from '../core/arquivos.js';
+import { DIR_CONTEUDO } from '../blog/conteudo.js';
 import { serializar } from '../core/frontmatter.js';
 import { criarRng } from '../core/rng.js';
 import { slug, formatarMoeda, formatarNumero, dataIso, dataExtenso, arredondar, clamp, truncar } from '../core/util.js';
 import { categoriasCanonicas, programas } from './programas.js';
 import { carregarRanking } from './analisar.js';
 
-export const DIR_POSTS = path.join(RAIZ_CENTRAL, 'conteudo', 'posts');
+export const DIR_POSTS = path.join(DIR_CONTEUDO, 'posts');
 
 /** Nota editorial 0–10 a partir das avaliações, do volume e do ajuste de preço. */
 export function notaEditorial(p) {

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<title>Precozen · Painel administrativo</title>
+<link rel="stylesheet" href="painel.css">
+<link rel="stylesheet" href="admin.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F172A'/%3E%3Ctext x='32' y='44' font-family='system-ui,Arial' font-size='36' font-weight='700' text-anchor='middle' fill='%23F59E0B'%3EP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div id="login" class="login" hidden>
+  <form class="login__cartao" id="form-login">
+    <p class="login__marca">Precozen <span>Painel administrativo</span></p>
+    <h1>Entrar</h1>
+    <p class="muted">Cole o token mostrado no terminal quando o painel foi iniciado (<code>precozen painel admin</code>).</p>
+    <label class="campo"><span>Token de acesso</span><input type="password" name="token" autocomplete="off" autofocus required></label>
+    <p class="login__erro" id="login-erro" role="alert" hidden></p>
+    <button class="btn btn--primario" type="submit">Entrar</button>
+  </form>
+</div>
+<div id="app" class="app" hidden>
+  <aside class="lateral">
+    <a class="lateral__marca" href="#/inicio"><span class="lateral__logo">P</span><span>Precozen<small>Painel administrativo</small></span></a>
+    <nav class="lateral__nav" id="nav" aria-label="Seções"></nav>
+    <div class="lateral__rodape">
+      <button class="btn btn--fantasma btn--bloco" id="btn-tarefas" type="button"><span class="ponto" id="ponto-tarefas"></span> Tarefas <span class="contador" id="contador-tarefas"></span></button>
+      <button class="btn btn--fantasma btn--bloco" id="btn-sair" type="button">Sair</button>
+    </div>
+  </aside>
+  <main class="principal">
+    <header class="cabecalho">
+      <div><h1 id="titulo-pagina">Início</h1><p class="muted" id="subtitulo-pagina"></p></div>
+      <div class="cabecalho__acoes" id="acoes-pagina"></div>
+    </header>
+    <div id="conteudo" class="conteudo" aria-live="polite"></div>
+  </main>
+</div>
+<aside class="gaveta" id="gaveta" hidden aria-label="Tarefas em execução">
+  <div class="gaveta__cabecalho">
+    <strong id="gaveta-titulo">Tarefas</strong>
+    <div class="gaveta__botoes">
+      <button class="btn btn--mini" id="gaveta-cancelar" type="button" hidden>Cancelar</button>
+      <a class="btn btn--mini" href="#/tarefas">Ver todas</a>
+      <button class="btn btn--mini" id="gaveta-fechar" type="button" aria-label="Fechar">✕</button>
+    </div>
+  </div>
+  <div class="gaveta__lista" id="gaveta-lista"></div>
+  <pre class="log" id="gaveta-log" tabindex="0"></pre>
+</aside>
+<div class="toasts" id="toasts" aria-live="assertive"></div>
+<dialog id="modal" class="modal"><div class="modal__conteudo" id="modal-conteudo"></div></dialog>
+<script src="admin.js"></script>
+</body>
+</html>
