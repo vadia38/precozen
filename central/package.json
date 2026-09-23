@@ -1,0 +1,25 @@
+{
+  "name": "precozen-central",
+  "version": "0.1.0",
+  "description": "Sistema central de monetização: blog de análises de produtos com links de afiliado, geração de conteúdo para Amazon KDP e designs para venda na Amazon.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "precozen": "bin/precozen.js"
+  },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "precozen": "node bin/precozen.js",
+    "exemplo": "node bin/precozen.js exemplo",
+    "blog": "node bin/precozen.js blog build",
+    "painel": "node bin/precozen.js painel build",
+    "servir": "node bin/precozen.js painel servir"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  },
+  "license": "UNLICENSED"
+}

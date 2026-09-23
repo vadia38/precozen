@@ -1,0 +1,84 @@
+{
+  "_observacao": "Taxas de comissão de REFERÊNCIA por programa e categoria, usadas quando o produto não informa a própria comissão. As tabelas oficiais mudam sem aviso: confira nos painéis dos programas e ajuste aqui (ou informe a coluna `comissao` na importação).",
+  "amazon-br": {
+    "nome": "Amazon Associados (Brasil)",
+    "moeda": "BRL",
+    "dominio": "www.amazon.com.br",
+    "tipo": "fisico",
+    "fonte": "https://associados.amazon.com.br/help/operating/schedule",
+    "verificadoEm": "2026-09",
+    "padrao": 0.05,
+    "categorias": {
+      "livros": 0.08, "ebooks": 0.08, "eletronicos": 0.04, "informatica": 0.03, "celulares": 0.03, "games": 0.03,
+      "casa": 0.06, "cozinha": 0.06, "eletrodomesticos": 0.04, "moda": 0.08, "calcados": 0.08, "beleza": 0.08,
+      "brinquedos": 0.06, "esportes": 0.06, "ferramentas": 0.05, "automotivo": 0.05, "pet": 0.06, "alimentos": 0.05,
+      "bebes": 0.06, "papelaria": 0.06, "jardim": 0.06, "dispositivos-amazon": 0.04, "saude": 0.06
+    },
+    "cookieDias": 1,
+    "link": "https://www.amazon.com.br/dp/{id}?tag={tag}&linkCode=ll1"
+  },
+  "amazon-com": {
+    "nome": "Amazon Associates (EUA)",
+    "moeda": "USD",
+    "dominio": "www.amazon.com",
+    "tipo": "fisico",
+    "fonte": "https://affiliate-program.amazon.com/help/operating/schedule",
+    "verificadoEm": "2026-09",
+    "padrao": 0.04,
+    "categorias": { "livros": 0.045, "eletronicos": 0.02, "informatica": 0.025, "casa": 0.03, "cozinha": 0.045, "moda": 0.04, "beleza": 0.03, "brinquedos": 0.03, "esportes": 0.03, "ferramentas": 0.03, "pet": 0.03, "games": 0.01, "dispositivos-amazon": 0.04 },
+    "cookieDias": 1,
+    "link": "https://www.amazon.com/dp/{id}?tag={tag}&linkCode=ll1"
+  },
+  "mercado-livre": {
+    "nome": "Programa de Afiliados Mercado Livre",
+    "moeda": "BRL",
+    "dominio": "www.mercadolivre.com.br",
+    "tipo": "fisico",
+    "fonte": "https://www.mercadolivre.com.br/afiliados",
+    "verificadoEm": "2026-09",
+    "padrao": 0.05,
+    "categorias": { "eletronicos": 0.03, "informatica": 0.03, "celulares": 0.03, "casa": 0.06, "moda": 0.08, "beleza": 0.08, "esportes": 0.06, "ferramentas": 0.05, "automotivo": 0.05, "brinquedos": 0.06, "pet": 0.06 },
+    "cookieDias": 7,
+    "link": null,
+    "observacaoLink": "Os links são gerados no painel de afiliados (mercadolivre.com/sec/...). Informe a coluna `link` na importação."
+  },
+  "shopee": {
+    "nome": "Shopee Afiliados",
+    "moeda": "BRL",
+    "dominio": "shopee.com.br",
+    "tipo": "fisico",
+    "fonte": "https://affiliate.shopee.com.br",
+    "verificadoEm": "2026-09",
+    "padrao": 0.04,
+    "categorias": { "moda": 0.08, "beleza": 0.08, "casa": 0.05, "eletronicos": 0.02, "celulares": 0.02, "informatica": 0.02, "esportes": 0.05, "brinquedos": 0.05, "pet": 0.05 },
+    "cookieDias": 7,
+    "link": null,
+    "observacaoLink": "Use os links curtos gerados pela API/painel (s.shopee.com.br/...). Informe a coluna `link` na importação."
+  },
+  "hotmart": {
+    "nome": "Hotmart (produtos digitais)",
+    "moeda": "BRL",
+    "dominio": "hotmart.com",
+    "tipo": "digital",
+    "fonte": "https://hotmart.com/pt-br/marketplace",
+    "verificadoEm": "2026-09",
+    "padrao": 0.4,
+    "categorias": {},
+    "cookieDias": 60,
+    "link": null,
+    "observacaoLink": "Cada produto tem um hotlink próprio (go.hotmart.com/...). Informe a coluna `link` e a `comissao` definida pelo produtor."
+  },
+  "magalu": {
+    "nome": "Magazine Você / Parceiro Magalu",
+    "moeda": "BRL",
+    "dominio": "www.magazinevoce.com.br",
+    "tipo": "fisico",
+    "fonte": "https://www.magazinevoce.com.br",
+    "verificadoEm": "2026-09",
+    "padrao": 0.05,
+    "categorias": { "eletrodomesticos": 0.04, "informatica": 0.03, "celulares": 0.03, "casa": 0.06, "moda": 0.08, "beleza": 0.08 },
+    "cookieDias": 7,
+    "link": "https://www.magazinevoce.com.br/{loja}/p/{id}/",
+    "observacaoLink": "O id é o slug do produto no Magalu."
+  }
+}

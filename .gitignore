@@ -16,3 +16,8 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
+
+# Precozen Central
+central/workspace/
+central/node_modules/
+central/.env

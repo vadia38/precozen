@@ -1,0 +1,98 @@
+{
+  "marca": {
+    "nome": "Precozen",
+    "slogan": "Análises de produtos para comprar melhor",
+    "descricao": "Análises independentes, comparativos e guias de compra dos produtos mais vendidos, com links de afiliado que ajudam a manter o site.",
+    "url": "https://precozen.com.br",
+    "basePath": "/",
+    "idioma": "pt-BR",
+    "autor": "Equipe Precozen",
+    "email": "contato@precozen.com.br",
+    "ano": 2026,
+    "tema": {
+      "corPrimaria": "#0F172A",
+      "corAcento": "#F59E0B"
+    }
+  },
+  "afiliados": {
+    "programas": {
+      "amazon-br": { "tag": "precozen-20" },
+      "amazon-com": { "tag": "precozen-20" },
+      "mercado-livre": {},
+      "shopee": {},
+      "hotmart": {},
+      "magalu": { "loja": "precozen" }
+    },
+    "pontuacao": {
+      "pesos": { "comissao": 0.3, "demanda": 0.3, "qualidade": 0.2, "preco": 0.1, "tendencia": 0.1 },
+      "classes": { "ouro": 70, "prata": 55, "bronze": 40 },
+      "conversao": 0.03,
+      "comissaoReferencia": 40,
+      "demandaReferencia": 300,
+      "faixaPreco": [80, 600],
+      "minimoAvaliacoes": 20
+    },
+    "estimativas": {
+      "amazon-br": { "k": 6000, "alpha": 0.65 },
+      "amazon-com": { "k": 25000, "alpha": 0.65 },
+      "mercado-livre": { "k": 6000, "alpha": 0.65 },
+      "shopee": { "k": 8000, "alpha": 0.65 }
+    }
+  },
+  "blog": {
+    "postsPorPagina": 12,
+    "divulgacao": "Este site participa de programas de afiliados. Como associado da Amazon e de outros programas, recebemos comissões por compras qualificadas feitas pelos links, sem custo adicional para você.",
+    "metodologia": "As análises são baseadas em especificações oficiais, avaliações públicas de compradores, histórico de preço e dados de vendas dos marketplaces. Não recebemos produtos das marcas.",
+    "anuncios": {
+      "adsense": null
+    },
+    "redes": {}
+  },
+  "kdp": {
+    "autor": "Precozen Press",
+    "trimPadrao": "6x9",
+    "papelPadrao": "branco",
+    "marketplacePadrao": "amazon.com",
+    "fonte": null,
+    "fonteTitulos": null,
+    "idioma": "pt-BR"
+  },
+  "design": {
+    "marca": "Precozen",
+    "fontes": [],
+    "paletaPadrao": "noite",
+    "renderizador": "auto"
+  },
+  "fiscal": {
+    "moeda": "BRL",
+    "cambioUsdBrl": 5.4,
+    "retencaoEuaRoyalties": 0.3,
+    "irpf": {
+      "vigencia": "2025-05",
+      "observacao": "Tabela progressiva mensal de referência. Confira a tabela vigente na Receita Federal antes de usar para declaração.",
+      "faixas": [
+        { "ate": 2428.8, "aliquota": 0, "deducao": 0 },
+        { "ate": 2826.65, "aliquota": 0.075, "deducao": 182.16 },
+        { "ate": 3751.05, "aliquota": 0.15, "deducao": 394.16 },
+        { "ate": 4664.68, "aliquota": 0.225, "deducao": 675.49 },
+        { "ate": null, "aliquota": 0.275, "deducao": 908.73 }
+      ],
+      "redutor": {
+        "ativo": false,
+        "observacao": "Redução do IR para rendimentos mensais até R$ 5.000 (Lei 15.270/2025, vigência 2026). Ative após confirmar os coeficientes vigentes.",
+        "isencaoAte": 5000,
+        "reducaoParcialAte": 7350,
+        "coeficienteFixo": 978.62,
+        "coeficienteVariavel": 0.133145
+      }
+    },
+    "mei": { "limiteAnual": 81000, "dasMensal": 80.9, "observacao": "Verifique com contador se a atividade (afiliado/royalties) é permitida no MEI e o valor do DAS vigente." },
+    "simples": { "anexoIII": 0.06, "anexoV": 0.155, "observacao": "Alíquotas da primeira faixa (RBT12 até R$ 180 mil), estimativa simplificada." }
+  },
+  "ia": {
+    "modelo": "claude-opus-5",
+    "esforco": "high",
+    "maxTokens": 16000,
+    "cache": true
+  }
+}

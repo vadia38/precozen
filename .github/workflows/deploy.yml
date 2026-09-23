@@ -24,8 +24,10 @@ jobs:
           node-version: 22
       - name: Validar dados
         run: npm run validar
-      - name: Testes
+      - name: Testes (catálogo e Precozen Central)
         run: npm test
+      - name: Fluxo de exemplo do Precozen Central
+        run: node central/bin/precozen.js exemplo --rapido --silencioso
       - name: Build (GitHub Pages)
         env:
           # Para domínio próprio, defina as variáveis do repositório SITE_URL e BASE_PATH

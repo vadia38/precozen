@@ -1,0 +1,52 @@
+// Fluxo completo com os dados de exemplo: afiliados → blog → kdp → design → painel. Uso: precozen exemplo [--rapido]
+import path from 'node:path';
+import { RAIZ_CENTRAL, workspace } from '../core/arquivos.js';
+import { log } from '../core/log.js';
+import { duracao } from '../core/util.js';
+import { importarDeFonte } from '../afiliados/importar.js';
+import { analisar } from '../afiliados/analisar.js';
+import { gerarReviews } from '../afiliados/reviews.js';
+import { gerarComparativos } from '../afiliados/comparativos.js';
+import { construirBlog } from '../blog/build.js';
+import { gerarLivro } from '../kdp/livro.js';
+import { analisarNichosDeArquivo } from '../kdp/nicho.js';
+import { gravarJson } from '../core/arquivos.js';
+import { gerarCamiseta, textosMerch } from '../design/camiseta.js';
+import { verificarListagemMerch } from '../design/conformidade.js';
+import { detectarRenderizador, svgParaPng } from '../design/render.js';
+import { gravarTexto } from '../core/arquivos.js';
+import { construirPainel } from './build.js';
+
+export async function executar(args, { config }) {
+  const inicio = Date.now();
+  const passo = (t) => log.passo(t);
+  passo('1/7 importando produtos de exemplo');
+  const imp = await importarDeFonte('arquivo', { arquivo: path.join(RAIZ_CENTRAL, 'data', 'produtos-exemplo.csv') }, { config });
+  log.info(`   ${imp.total} produtos na base`);
+  passo('2/7 pontuando e gerando o ranking');
+  const { ranking } = analisar({ config });
+  log.info(`   ouro ${ranking.resumo.porClasse.ouro || 0} · prata ${ranking.resumo.porClasse.prata || 0} · bronze ${ranking.resumo.porClasse.bronze || 0}`);
+  passo('3/7 gerando análises e comparativos');
+  const rev = await gerarReviews({ config, top: 8, forcar: Boolean(args.forcar) });
+  const comp = gerarComparativos({ config, minimo: 3, forcar: Boolean(args.forcar) });
+  log.info(`   ${rev.gerados.length} análises novas, ${rev.pulados.length} mantidas · ${comp.gerados.length} comparativos novos`);
+  passo('4/7 construindo o blog');
+  const blog = construirBlog({ config });
+  log.info(`   ${blog.paginas} páginas em ${blog.saida}`);
+  passo('5/7 gerando um livro KDP (caça-palavras) e nichos');
+  const livro = gerarLivro({ config, tipo: 'caca-palavras', titulo: 'Caça-palavras: Animais e Natureza', subtitulo: '40 grades com soluções', tema: 'todos', paginas: 60, semente: 'exemplo' });
+  log.info(`   ${livro.paginas} páginas · ${livro.arquivos.interior}`);
+  gravarJson(workspace('kdp', 'nichos.json'), { geradoEm: new Date().toISOString().slice(0, 10), nichos: analisarNichosDeArquivo(path.join(RAIZ_CENTRAL, 'data', 'nichos-exemplo.csv')) });
+  passo('6/7 criando uma estampa Merch');
+  const texto = 'Café primeiro | perguntas depois';
+  const est = gerarCamiseta({ texto, subtexto: 'desde sempre', layout: 'empilhado', paleta: 'sol' });
+  const dirEst = workspace('design', 'camisetas', 'cafe-primeiro-perguntas-depois');
+  gravarTexto(path.join(dirEst, 'estampa.svg'), est.svg);
+  const textos = textosMerch({ texto, subtexto: 'desde sempre', nicho: 'café' });
+  gravarJson(path.join(dirEst, 'listagem.json'), { ...textos, conformidade: verificarListagemMerch({ ...textos, estampa: texto }), produto: est.spec, layout: est.layout });
+  const rend = detectarRenderizador();
+  if (rend && !args.rapido) { svgParaPng(est.svg, path.join(dirEst, 'estampa.png'), { largura: est.spec.largura, altura: est.spec.altura }); log.info(`   PNG 4500×5400 gerado com ${rend.tipo}`); } else log.info(`   SVG gerado${rend ? '' : ' (sem renderizador para PNG)'}`);
+  passo('7/7 montando o painel');
+  const painel = construirPainel({ config });
+  log.ok(`fluxo completo em ${duracao(Date.now() - inicio)}\n   Painel: ${painel.arquivo}\n   Blog:   ${blog.saida}\n   Livro:  ${livro.pasta}\n   Sirva tudo com: precozen painel servir`);
+}
