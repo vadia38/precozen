@@ -88,7 +88,7 @@ test('catálogo de ações: validação e argumentos', async () => {
   const v = validarOpcoes('kdp.livro', { tipo: 'sudoku', titulo: 'Meu livro', capa: false, quantidade: '5', inicio: '2027-01', desconhecido: 'ignorado' });
   assert.deepEqual(v, { tipo: 'sudoku', titulo: 'Meu livro', quantidade: 5, inicio: '2027-01', capa: false });
   assert.deepEqual(montarArgs(ACOES['kdp.livro'], v), ['--tipo=sudoku', '--titulo=Meu livro', '--quantidade=5', '--inicio=2027-01', '--no-capa']);
-  assert.throws(() => resolverCaminhoPermitido('../../../../etc/passwd'), /fora das pastas/);
+  assert.throws(() => resolverCaminhoPermitido(path.relative(RAIZ, path.resolve('/', 'etc', 'passwd'))), /fora das pastas/, 'caminho relativo que sobe até a raiz do sistema');
   assert.equal(resolverCaminhoPermitido('data/produtos-exemplo.csv'), path.join(RAIZ, 'data', 'produtos-exemplo.csv'));
   const c = catalogo();
   assert.ok(c.acoes.find((a) => a.id === 'kdp.livro').campos.find((f) => f.nome === 'trim').opcoes.length > 10);
