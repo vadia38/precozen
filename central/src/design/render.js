@@ -5,7 +5,8 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { segredo } from '../core/config.js';
 
-const CANDIDATOS_CHROMIUM = ['chromium', 'chromium-browser', 'google-chrome', 'google-chrome-stable', 'chrome', 'msedge', '/opt/pw-browsers/chromium', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'];
+// Ordem: navegadores completos antes do wrapper "chromium" do snap (Ubuntu), que trava em ambientes de CI.
+const CANDIDATOS_CHROMIUM = ['google-chrome', 'google-chrome-stable', 'chromium-browser', 'chrome', 'msedge', '/opt/pw-browsers/chromium', 'chromium', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'];
 
 function existeNoPath(cmd) {
   if (cmd.includes(path.sep) || cmd.includes('/')) return fs.existsSync(cmd) ? cmd : null;
@@ -14,15 +15,26 @@ function existeNoPath(cmd) {
   return null;
 }
 
+/** Confere se o binário do Chromium responde (o wrapper do snap no Ubuntu existe no PATH mas trava em CI). */
+function chromiumFunciona(bin) {
+  try {
+    const conteudo = fs.statSync(bin).size < 65536 ? fs.readFileSync(bin, 'latin1') : '';
+    if (/snap run|\/snap\/bin\//.test(conteudo)) return false;
+    execFileSync(bin, ['--version'], { stdio: 'pipe', timeout: 15000 });
+    return true;
+  } catch { return false; }
+}
+
 let cacheRenderizador;
-/** Detecta o renderizador disponível: { tipo: 'chromium'|'rsvg'|'magick'|'inkscape', bin } ou null. */
+/** Detecta o renderizador disponível: { tipo: 'chromium'|'rsvg'|'magick'|'inkscape', bin } ou null. PRECOZEN_RENDERIZADOR=nenhum desliga. */
 export function detectarRenderizador(preferido = 'auto') {
   if (cacheRenderizador !== undefined && preferido === 'auto') return cacheRenderizador;
+  if (/^(nenhum|none|off|0)$/i.test(segredo('PRECOZEN_RENDERIZADOR'))) { cacheRenderizador = null; return null; }
   const ordem = preferido === 'auto' ? ['chromium', 'rsvg', 'magick', 'inkscape'] : [preferido];
   const custom = segredo('PRECOZEN_CHROMIUM');
   for (const tipo of ordem) {
     if (tipo === 'chromium') {
-      for (const c of [custom, ...CANDIDATOS_CHROMIUM].filter(Boolean)) { const bin = existeNoPath(c); if (bin) { cacheRenderizador = { tipo, bin }; return cacheRenderizador; } }
+      for (const c of [custom, ...CANDIDATOS_CHROMIUM].filter(Boolean)) { const bin = existeNoPath(c); if (bin && chromiumFunciona(bin)) { cacheRenderizador = { tipo, bin }; return cacheRenderizador; } }
     } else if (tipo === 'rsvg') { const bin = existeNoPath('rsvg-convert'); if (bin) { cacheRenderizador = { tipo, bin }; return cacheRenderizador; } }
     else if (tipo === 'magick') { const bin = existeNoPath('magick') || existeNoPath('convert'); if (bin) { cacheRenderizador = { tipo, bin }; return cacheRenderizador; } }
     else if (tipo === 'inkscape') { const bin = existeNoPath('inkscape'); if (bin) { cacheRenderizador = { tipo, bin }; return cacheRenderizador; } }
