@@ -1,2 +1,3 @@
-# Netlify / Cloudflare Pages. Páginas inexistentes caem na 404 do site.
-/*  /404.html  404
+# Netlify e Cloudflare (Pages ou Workers com assets estáticos). Páginas inexistentes caem no 404.html
+# automaticamente nas duas plataformas (no Workers, via assets.not_found_handling = "404-page" no wrangler),
+# por isso não há regra com status 404 aqui: o Workers só aceita 200, 301, 302, 303, 307 e 308.

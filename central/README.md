@@ -52,7 +52,7 @@ As comissões de `data/programas.json` são **valores de referência** — as ta
 
 ## Módulo blog
 
-`blog build [--out dist] [--base /blog/] [--url https://...]`, `blog validar`, `blog servir`. Lê `conteudo/posts/*.md` (front matter + Markdown) e `conteudo/paginas/*.md` (sobre, divulgação, privacidade, contato) e gera: início, posts, categorias, comparativos, busca (cliente), páginas fixas, `feed.xml`, `sitemap.xml`, `robots.txt`, `api/posts.json`, `favicon.svg`, `_headers`. Recursos: JSON-LD (`Article`, `Review` com nota editorial, `BreadcrumbList`, `ItemList`), Open Graph, CSP restrita sem scripts inline, tema claro/escuro, links de afiliado com `rel="sponsored nofollow noopener"`, aviso de afiliados e metodologia em todo post. AdSense opcional (`blog.anuncios.adsense`), que libera os domínios necessários na CSP.
+`blog build [--out dist] [--base /blog/] [--url https://...]` (ou variáveis `SITE_URL_BLOG` e `BASE_PATH_BLOG`), `blog validar`, `blog servir`. Lê `conteudo/posts/*.md` (front matter + Markdown) e `conteudo/paginas/*.md` (sobre, divulgação, privacidade, contato) e gera: início, posts, categorias, comparativos, busca (cliente), páginas fixas, `feed.xml`, `sitemap.xml`, `robots.txt`, `api/posts.json`, `favicon.svg`, `_headers`. Recursos: JSON-LD (`Article`, `Review` com nota editorial, `BreadcrumbList`, `ItemList`), Open Graph, CSP restrita sem scripts inline, tema claro/escuro, links de afiliado com `rel="sponsored nofollow noopener"`, aviso de afiliados e metodologia em todo post. AdSense opcional (`blog.anuncios.adsense`), que libera os domínios necessários na CSP.
 
 Os posts em `conteudo/posts/` foram gerados a partir de `data/produtos-exemplo.csv` (marcas **fictícias**). Apague-os antes de publicar seu blog: `rm conteudo/posts/*.md` e gere os seus.
 
@@ -112,9 +112,9 @@ Com a IA ligada: `afiliados reviews --ia` (reescreve introdução, prós/contras
 
 O blog é publicado como **Worker com assets estáticos** (`central/wrangler.jsonc`, nome `precozen-blog`, pasta `workspace/blog/dist`). O `_headers` gerado no build aplica cabeçalhos de segurança e marca o domínio de pré-visualização `*.workers.dev` como `noindex`; o domínio próprio é indexado normalmente. Três formas de publicar:
 
-**1. Pelo painel da Cloudflare (Workers Builds, sem instalar nada).** Em *Workers & Pages → Create application → Import a repository*, escolha `vadia38/precozen` e configure: build command `npm run build:blog`, deploy command `npx wrangler deploy`, nome do Worker `precozen-blog` (precisa ser igual ao `name` do `wrangler.jsonc`), branch de produção a que preferir. O root directory pode ficar vazio (a raiz do repositório também tem `wrangler.jsonc` e o script `build:blog`) ou ser `central`. Em *Build variables*, defina `SITE_URL` com a URL pública (por exemplo `https://precozen-blog.<sua-conta>.workers.dev` ou o domínio próprio) para os canônicos e o sitemap saírem certos. A cada push a Cloudflare reconstrói e publica.
+**1. Pelo painel da Cloudflare (Workers Builds, sem instalar nada).** Em *Workers & Pages → Create application → Import a repository*, escolha `vadia38/precozen` e configure: **branch de produção com o código do Precozen Central** (hoje `claude/central-monetization-content-system-g3ww73`, ou `main` depois de mesclar), build command `npm run build:blog` (ou `npm run build`, que gera catálogo e blog), deploy command `npx wrangler deploy`, nome do Worker `precozen-blog` (precisa ser igual ao `name` do `wrangler.jsonc`). O root directory pode ficar vazio (a raiz do repositório também tem `wrangler.jsonc` e o script `build:blog`) ou ser `central`. Em *Build variables*, defina `SITE_URL_BLOG` com a URL pública (por exemplo `https://precozen-blog.<sua-conta>.workers.dev` ou o domínio próprio) para os canônicos e o sitemap saírem certos. A cada push a Cloudflare reconstrói e publica.
 
-**2. Pelo GitHub Actions** (`.github/workflows/cloudflare-blog.yml`). Crie um token em *Account API tokens → Create Token → Edit Cloudflare Workers* e cadastre no repositório, em *Settings → Secrets and variables → Actions*: os segredos `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID` e, opcionalmente, a variável `SITE_URL_BLOG`. O workflow roda nos pushes em `main` que tocam `central/` e também manualmente (*Actions → Publicar blog Precozen na Cloudflare → Run workflow*, em qualquer branch).
+**2. Pelo GitHub Actions** (`.github/workflows/cloudflare-blog.yml`). Crie um token em *Account API tokens → Create Token → Edit Cloudflare Workers* e cadastre no repositório, em *Settings → Secrets and variables → Actions*: os segredos `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID` e, opcionalmente, a variável `SITE_URL_BLOG` (URL pública do blog). O workflow roda nos pushes em `main` que tocam `central/` e também manualmente (*Actions → Publicar blog Precozen na Cloudflare → Run workflow*, em qualquer branch).
 
 **3. Do seu computador.**
 
@@ -125,7 +125,9 @@ npm run deploy                        # gera o blog e publica em https://precoze
 npm run deploy:preview                # só envia uma versão de pré-visualização
 ```
 
-Domínio próprio: em *Workers & Pages → precozen-blog → Settings → Domains & Routes → Add custom domain*. Depois ajuste `marca.url` em `precozen.config.json` (ou `SITE_URL`) para o domínio final e publique de novo.
+Domínio próprio: em *Workers & Pages → precozen-blog → Settings → Domains & Routes → Add custom domain*. Depois ajuste `marca.url` em `precozen.config.json` (ou `SITE_URL_BLOG`) para o domínio final e publique de novo.
+
+O catálogo Luretec da raiz pode ir para um segundo Worker (`luretec-catalogo`) com `npm run deploy:catalogo` na raiz, ou no Workers Builds com build command `npm run build:catalogo` e deploy command `npx wrangler deploy --config wrangler.catalogo.jsonc`.
 
 ## Estrutura
 

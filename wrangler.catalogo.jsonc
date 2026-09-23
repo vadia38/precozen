@@ -1,0 +1,16 @@
+// Deploy do CATÁLOGO LURETEC (raiz do repositório) como Worker com assets estáticos.
+// Build: `npm run build:catalogo` (gera dist/) · Deploy: `npx wrangler deploy --config wrangler.catalogo.jsonc`
+// O wrangler.jsonc da raiz é do blog Precozen (Worker precozen-blog); este é um segundo Worker, independente.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "luretec-catalogo",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

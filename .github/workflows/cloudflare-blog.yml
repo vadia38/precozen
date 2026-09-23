@@ -2,7 +2,7 @@ name: Publicar blog Precozen na Cloudflare
 
 # Publica central/workspace/blog/dist como Worker com assets estáticos (nome: precozen-blog).
 # Exige os segredos do repositório CLOUDFLARE_API_TOKEN (permissão "Edit Cloudflare Workers") e CLOUDFLARE_ACCOUNT_ID.
-# Opcional: variável SITE_URL_BLOG com a URL pública (domínio próprio ou https://precozen-blog.<conta>.workers.dev).
+# Opcional: variável de repositório SITE_URL_BLOG com a URL pública (domínio próprio ou https://precozen-blog.<conta>.workers.dev).
 
 on:
   push:
@@ -39,7 +39,7 @@ jobs:
         run: npm run test:central
       - name: Gerar o blog
         env:
-          SITE_URL: ${{ vars.SITE_URL_BLOG }}
+          SITE_URL_BLOG: ${{ vars.SITE_URL_BLOG }}
         run: node central/bin/precozen.js blog build --base /
       - name: Deploy na Cloudflare
         uses: cloudflare/wrangler-action@v4

@@ -9,6 +9,7 @@ Este repositório tem dois projetos independentes:
 node central/bin/precozen.js exemplo     # fluxo completo com dados de exemplo
 node central/bin/precozen.js ajuda
 npm test                                 # testes do catálogo e do Precozen Central
+npm run build                            # gera o catálogo (dist/) e o blog (central/workspace/blog/dist)
 ```
 
 ---
@@ -94,7 +95,8 @@ Por padrão o importador faz *merge*: atualiza os existentes, acrescenta novos e
 `site.config.json` concentra nome, WhatsApp (`numero` só com dígitos e DDI), URL final (`url`), `basePath`, textos do "Sobre", passos do "Como funciona", destaques e avisos. O build também aceita `--base`, `--url` e `--out` (ou `BASE_PATH`, `SITE_URL`, `OUT_DIR`).
 
 - **GitHub Pages**: o workflow publica `dist/` a cada push em `main`, com base `/<repositório>/`. Para domínio próprio, defina as variáveis do repositório `SITE_URL` e `BASE_PATH=/` e crie `public/CNAME`.
-- **Cloudflare Pages / Netlify**: comando `npm run build`, pasta `dist`. `public/_headers` e `public/_redirects` já trazem cabeçalhos de segurança, cache e 404 (ver `netlify.toml`).
+- **Netlify / Cloudflare Pages**: comando `npm run build:catalogo`, pasta `dist`. `public/_headers` traz cabeçalhos de segurança e cache; o `404.html` é servido automaticamente (ver `netlify.toml`).
+- **Cloudflare Workers (assets estáticos)**: `npm run deploy:catalogo` publica o Worker `luretec-catalogo` (`wrangler.catalogo.jsonc`). No Workers Builds: build command `npm run build:catalogo`, deploy command `npx wrangler deploy --config wrangler.catalogo.jsonc`. O `wrangler.jsonc` da raiz é do blog Precozen (`precozen-blog`).
 - **Docker / Proxmox**: `docker compose -f deploy/docker-compose.yml up -d --build` sobe nginx na porta 8080 com os mesmos cabeçalhos (`deploy/nginx.conf`). Ative HSTS só atrás de TLS.
 
 ## Segurança e desempenho

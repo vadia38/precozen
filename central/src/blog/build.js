@@ -43,8 +43,8 @@ export function construirBlog(opcoes = {}) {
   const inicio = Date.now();
   const { config } = opcoes;
   if (!config) throw new Error('config obrigatória');
-  const base = normalizarBase(opcoes.base || process.env.BASE_PATH || config.marca.basePath || '/');
-  const url = normalizarUrl(opcoes.url || process.env.SITE_URL || config.marca.url);
+  const base = normalizarBase(opcoes.base || process.env.BASE_PATH_BLOG || config.marca.basePath || '/');
+  const url = normalizarUrl(opcoes.url || process.env.SITE_URL_BLOG || config.marca.url);
   const out = path.resolve(opcoes.out || workspace('blog', 'dist'));
   const hoje = opcoes.data ? new Date(opcoes.data) : new Date();
   const blog = carregarBlog({ dirPosts: opcoes.dirPosts, dirPaginas: opcoes.dirPaginas });

@@ -8,17 +8,19 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "node src/build.js",
+    "build": "npm run build:catalogo && npm run build:blog",
+    "build:catalogo": "node src/build.js",
+    "build:blog": "node central/bin/precozen.js blog build",
     "dev": "node scripts/dev.js",
     "test": "node --test \"tests/**/*.test.js\" \"central/tests/**/*.test.js\"",
+    "test:catalogo": "node --test \"tests/**/*.test.js\"",
+    "test:central": "node --test \"central/tests/**/*.test.js\"",
     "validar": "node scripts/validar-dados.js",
     "importar": "node scripts/importar-catalogo.js",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
-    "test:catalogo": "node --test \"tests/**/*.test.js\"",
-    "test:central": "node --test \"central/tests/**/*.test.js\"",
     "central": "node central/bin/precozen.js",
-    "build:blog": "node central/bin/precozen.js blog build",
-    "deploy:blog": "node central/bin/precozen.js blog build && npx wrangler deploy"
+    "deploy:blog": "node central/bin/precozen.js blog build && npx wrangler deploy",
+    "deploy:catalogo": "npm run build:catalogo && npx wrangler deploy --config wrangler.catalogo.jsonc"
   },
   "license": "UNLICENSED"
 }
