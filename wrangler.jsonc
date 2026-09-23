@@ -1,0 +1,16 @@
+// Deploy do blog Precozen (central/) a partir da RAIZ do repositório, para o Workers Builds da Cloudflare
+// funcionar mesmo sem "root directory" configurado. Build: `npm run build:blog` · Deploy: `npx wrangler deploy`.
+// Se o root directory for `central`, vale o central/wrangler.jsonc (mesmo Worker, mesma pasta de assets).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "precozen-blog",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./central/workspace/blog/dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

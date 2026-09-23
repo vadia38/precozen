@@ -16,7 +16,9 @@
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "test:catalogo": "node --test \"tests/**/*.test.js\"",
     "test:central": "node --test \"central/tests/**/*.test.js\"",
-    "central": "node central/bin/precozen.js"
+    "central": "node central/bin/precozen.js",
+    "build:blog": "node central/bin/precozen.js blog build",
+    "deploy:blog": "node central/bin/precozen.js blog build && npx wrangler deploy"
   },
   "license": "UNLICENSED"
 }
